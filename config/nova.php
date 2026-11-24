@@ -211,6 +211,22 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Nova Admins
+    |--------------------------------------------------------------------------
+    |
+    | Outside the local environment, only users with these emails may open
+    | Nova (see the viewNova gate in NovaServiceProvider). Set them as a
+    | comma-separated list in NOVA_ADMIN_EMAILS.
+    |
+    */
+
+    'admin_emails' => array_values(array_filter(array_map(
+        fn (string $email) => strtolower(trim($email)),
+        explode(',', (string) env('NOVA_ADMIN_EMAILS', '')),
+    ))),
+
+    /*
+    |--------------------------------------------------------------------------
     | Demo Login (local only)
     |--------------------------------------------------------------------------
     |

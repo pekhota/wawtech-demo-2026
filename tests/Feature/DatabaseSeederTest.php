@@ -74,3 +74,14 @@ it('copies speaker photos and partner logos to the public disk', function () {
         ->and($partner->tier)->toBe(PartnerTier::Silver);
     Storage::disk('public')->assertExists([$speaker->photo, $partner->logo]);
 });
+
+it('seeds only the content in production, without the demo accounts', function () {
+    app()->detectEnvironment(fn () => 'production');
+
+    // As on the server: db:seed refuses to run in production without --force.
+    $this->artisan('db:seed', ['--force' => true])->assertSuccessful();
+
+    $this->assertDatabaseCount('users', 0);
+    expect(Speaker::count())->toBeGreaterThan(0)
+        ->and(AgendaItem::count())->toBeGreaterThan(0);
+});

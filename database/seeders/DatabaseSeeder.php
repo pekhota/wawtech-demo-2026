@@ -19,7 +19,18 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        $this->call([
+            SpeakerSeeder::class,
+            AgendaItemSeeder::class,
+            PartnerSeeder::class,
+            FaqSeeder::class,
+        ]);
+
+        // The demo accounts have a known password, so production only gets the content.
+        // Create the real admin there with `php artisan nova:user`.
+        if (app()->isProduction()) {
+            return;
+        }
 
         $user = User::factory()->create([
             'name' => 'Test User',
@@ -30,13 +41,6 @@ class DatabaseSeeder extends Seeder
         User::factory()->create([
             'name' => 'Content Editor',
             'email' => 'editor@example.com',
-        ]);
-
-        $this->call([
-            SpeakerSeeder::class,
-            AgendaItemSeeder::class,
-            PartnerSeeder::class,
-            FaqSeeder::class,
         ]);
 
         $user->notify(NovaNotification::make()

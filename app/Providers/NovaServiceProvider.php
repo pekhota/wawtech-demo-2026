@@ -108,9 +108,8 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     {
         Gate::define('viewNova', function (User $user) {
             // Nova already admits everyone locally; mirroring that here lets impersonation work in the demo.
-            return app()->isLocal() || in_array($user->email, [
-                //
-            ]);
+            // Elsewhere only the emails in NOVA_ADMIN_EMAILS get in.
+            return app()->isLocal() || in_array(strtolower($user->email), config('nova.admin_emails'), true);
         });
     }
 
