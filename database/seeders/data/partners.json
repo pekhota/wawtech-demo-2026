@@ -1,0 +1,326 @@
+[
+    {
+        "name": "Skyfall",
+        "tier": "title",
+        "url": "https://www.drone-directory.com.ua/profile/skyfall/",
+        "logo": "skyfall.webp"
+    },
+    {
+        "name": "Wild Hornets",
+        "tier": "title",
+        "url": "https://wildhornets.com/en/",
+        "logo": "wild-hornets.webp"
+    },
+    {
+        "name": "Waymo",
+        "tier": "gold",
+        "url": "https://waymo.com/",
+        "logo": "waymo.webp"
+    },
+    {
+        "name": "Squad",
+        "tier": "gold",
+        "url": "https://squad.tech/",
+        "logo": "squad.webp"
+    },
+    {
+        "name": "EU4Innovation East",
+        "tier": "gold",
+        "url": "https://eu4innovationeast.eu/",
+        "logo": "eu4innovation-east.webp"
+    },
+    {
+        "name": "Bolt",
+        "tier": "silver",
+        "url": "https://bolt.eu/pl-pl/",
+        "logo": "bolt.webp"
+    },
+    {
+        "name": "Preply",
+        "tier": "silver",
+        "url": "https://preply.com/pl/",
+        "logo": "preply.webp"
+    },
+    {
+        "name": "Netflix",
+        "tier": "silver",
+        "url": "https://jobs.netflix.com/",
+        "logo": "netflix.webp"
+    },
+    {
+        "name": "Creatio",
+        "tier": "silver",
+        "url": "https://www.creatio.com/",
+        "logo": "creatio.webp"
+    },
+    {
+        "name": "HelloFresh",
+        "tier": "silver",
+        "url": "https://www.hellofreshgroup.com/en/",
+        "logo": "hellofresh.webp"
+    },
+    {
+        "name": "Fiberax",
+        "tier": "silver",
+        "url": "https://fiberax.com/uk/",
+        "logo": "fiberax.webp"
+    },
+    {
+        "name": "Capital",
+        "tier": "silver",
+        "url": "https://capital.com/",
+        "logo": "capital.webp"
+    },
+    {
+        "name": "Ciklum",
+        "tier": "silver",
+        "url": "https://www.ciklum.com/",
+        "logo": "ciklum.webp"
+    },
+    {
+        "name": "Nix",
+        "tier": "silver",
+        "url": "https://careers.n-ix.com/n-ix-poland/",
+        "logo": "nix.webp"
+    },
+    {
+        "name": "Nord Security",
+        "tier": "silver",
+        "url": "https://nordsecurity.com/",
+        "logo": "nord-security.webp"
+    },
+    {
+        "name": "Svitla Systems",
+        "tier": "silver",
+        "url": "https://svitla.com/",
+        "logo": "svitla-systems.webp"
+    },
+    {
+        "name": "Solidgate",
+        "tier": "silver",
+        "url": "https://solidgate.com/",
+        "logo": "solidgate.webp"
+    },
+    {
+        "name": "Upstars",
+        "tier": "silver",
+        "url": "https://www.upstars.com/en",
+        "logo": "upstars.webp"
+    },
+    {
+        "name": "FirePoint",
+        "tier": "silver",
+        "url": "https://firepoint.technology/",
+        "logo": "firepoint.webp"
+    },
+    {
+        "name": "MacPaw",
+        "tier": "silver",
+        "url": "https://macpaw.com/uk",
+        "logo": "macpaw.webp"
+    },
+    {
+        "name": "Laravel",
+        "tier": "silver",
+        "url": "https://laravel.com/",
+        "logo": "laravel.webp"
+    },
+    {
+        "name": "GR8 Tech",
+        "tier": "silver",
+        "url": "https://gr8.tech/",
+        "logo": "gr8-tech.webp"
+    },
+    {
+        "name": "Shelf",
+        "tier": "silver",
+        "url": "https://shelf.io/",
+        "logo": "shelf.webp"
+    },
+    {
+        "name": "Growe Talents",
+        "tier": "silver",
+        "url": "https://growe.com/",
+        "logo": "growe-talents.webp"
+    },
+    {
+        "name": "AirSlate",
+        "tier": "silver",
+        "url": "https://www.airslate.com/",
+        "logo": "airslate.webp"
+    },
+    {
+        "name": "Re-link",
+        "tier": "silver",
+        "url": "https://re-link.com.ua/",
+        "logo": "re-link.webp"
+    },
+    {
+        "name": "Maserati Polska",
+        "tier": "event",
+        "url": "https://maseratipolska.com.pl/en/",
+        "logo": "maserati-polska.webp"
+    },
+    {
+        "name": "Gudbags",
+        "tier": "event",
+        "url": "https://gudbags.com/",
+        "logo": "gudbags.webp"
+    },
+    {
+        "name": "Crumb",
+        "tier": "event",
+        "url": "https://crumb.ua/",
+        "logo": "crumb.webp"
+    },
+    {
+        "name": "Drukomat",
+        "tier": "event",
+        "url": "https://www.drukomat.pl/",
+        "logo": "drukomat.webp"
+    },
+    {
+        "name": "Eventivity",
+        "tier": "event",
+        "url": "https://eventivity.pl/",
+        "logo": "eventivity.webp"
+    },
+    {
+        "name": "Off Drop",
+        "tier": "event",
+        "url": "https://www.offdrop.eu/",
+        "logo": "off-drop.webp"
+    },
+    {
+        "name": "The Brain Embassy",
+        "tier": "event",
+        "url": "https://brainembassy.pl/",
+        "logo": "the-brain-embassy.webp"
+    },
+    {
+        "name": "PostgreSQL",
+        "tier": "community",
+        "url": "https://www.postgresql.eu/",
+        "logo": "postgresql.webp"
+    },
+    {
+        "name": "Brief",
+        "tier": "community",
+        "url": "https://brief.pl/",
+        "logo": "brief.webp"
+    },
+    {
+        "name": "Perspektywy",
+        "tier": "community",
+        "url": "https://perspektywy.pl/",
+        "logo": "perspektywy.webp"
+    },
+    {
+        "name": "AIOAI",
+        "tier": "community",
+        "url": "https://aioai.pl/",
+        "logo": "aioai.webp"
+    },
+    {
+        "name": "meet.js",
+        "tier": "community",
+        "url": "https://meetjs.pl/",
+        "logo": "meet-js.webp"
+    },
+    {
+        "name": "iPlan",
+        "tier": "community",
+        "url": "https://iplan-europe.com/",
+        "logo": "iplan.webp"
+    },
+    {
+        "name": "SysOps Polska",
+        "tier": "community",
+        "url": "https://www.sysopspolska.pl/",
+        "logo": "sysops-polska.webp"
+    },
+    {
+        "name": "4programmers",
+        "tier": "community",
+        "url": "https://4programmers.net/",
+        "logo": "4programmers.webp"
+    },
+    {
+        "name": "Programista Magazyn",
+        "tier": "community",
+        "url": "https://programistamag.pl/",
+        "logo": "programista-magazyn.webp"
+    },
+    {
+        "name": "Crossweb",
+        "tier": "community",
+        "url": "https://crossweb.pl/",
+        "logo": "crossweb.webp"
+    },
+    {
+        "name": "EuroTechJobs",
+        "tier": "community",
+        "url": "https://www.eurotechjobs.com/",
+        "logo": "eurotechjobs.webp"
+    },
+    {
+        "name": "Startup Hub Poland",
+        "tier": "community",
+        "url": "https://startuphub.pl/",
+        "logo": "startup-hub-poland.webp"
+    },
+    {
+        "name": "Software & Computer Museum",
+        "tier": "community",
+        "url": "https://sncmuseum.org/",
+        "logo": "software-computer-museum.webp"
+    },
+    {
+        "name": "WeWork",
+        "tier": "community",
+        "url": "https://www.wework.com/",
+        "logo": "wework.webp"
+    },
+    {
+        "name": "Polish-Ukrainian Chamber of Commerce",
+        "tier": "community",
+        "url": "https://pol-ukr.com/en/",
+        "logo": "polish-ukrainian-chamber-of-commerce.webp"
+    },
+    {
+        "name": "IT Ukraine Association",
+        "tier": "community",
+        "url": "https://itukraine.org.ua/",
+        "logo": "it-ukraine-association.webp"
+    },
+    {
+        "name": "Startup Bridge",
+        "tier": "community",
+        "url": "https://www.startupbridge.eu/",
+        "logo": "startup-bridge.webp"
+    },
+    {
+        "name": "Testerzy",
+        "tier": "community",
+        "url": "https://testerzy.pl/",
+        "logo": "testerzy.webp"
+    },
+    {
+        "name": "CIC",
+        "tier": "community",
+        "url": "https://cic.com/",
+        "logo": "cic.webp"
+    },
+    {
+        "name": "Start Warsaw",
+        "tier": "community",
+        "url": "https://www.startwarsaw.org/",
+        "logo": "start-warsaw.webp"
+    },
+    {
+        "name": "Venture Cafe Warsaw",
+        "tier": "community",
+        "url": "https://venturecafewarsaw.org/",
+        "logo": "venture-cafe-warsaw.webp"
+    }
+]

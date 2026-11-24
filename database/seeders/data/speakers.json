@@ -1,0 +1,938 @@
+[
+    {
+        "name": "Daniel Stenberg",
+        "position": "Creator of cURL",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/danielstenberg/",
+        "photo": "daniel-stenberg.webp",
+        "is_featured": true
+    },
+    {
+        "name": "José Valim",
+        "position": "Creator of Elixir",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/josevalim/",
+        "photo": "jose-valim.webp",
+        "is_featured": true
+    },
+    {
+        "name": "Mariusz Gąsiewski",
+        "position": "CEE Apps Lead",
+        "company": "Google",
+        "profile_url": "https://www.linkedin.com/in/mariuszgasiewski/",
+        "photo": "mariusz-gasiewski.webp",
+        "is_featured": true
+    },
+    {
+        "name": "Luca Mezzalira",
+        "position": "Software Architect, International Speaker, Author and Architecture Storyteller",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/lucamezzalira/",
+        "photo": "luca-mezzalira.webp",
+        "is_featured": true
+    },
+    {
+        "name": "Dima Maleev",
+        "position": "Director of Engineering",
+        "company": "Agoda",
+        "profile_url": "https://www.linkedin.com/in/dmaleev/",
+        "photo": "dima-maleev.webp",
+        "is_featured": true
+    },
+    {
+        "name": "Artur Kurasiński",
+        "position": "Entrepreneur, Author, Tech-realist",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/artur-kurasinski/",
+        "photo": "artur-kurasinski.webp",
+        "is_featured": true
+    },
+    {
+        "name": "Siim Viidu",
+        "position": "VP of Engineering",
+        "company": "Bolt",
+        "profile_url": "https://www.linkedin.com/in/siimviidu/",
+        "photo": "siim-viidu.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Anastasiia Voitova",
+        "position": "Head of Security Engineering",
+        "company": "Cossack Labs",
+        "profile_url": "https://www.linkedin.com/in/anastasiiavoitova/",
+        "photo": "anastasiia-voitova.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Nuno Maduro",
+        "position": "Staff Software Engineer",
+        "company": "Laravel",
+        "profile_url": "https://www.linkedin.com/in/nunomaduro/",
+        "photo": "nuno-maduro.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Mikalai Alimenkou",
+        "position": "Tech & AI Consultant",
+        "company": "XP Injection",
+        "profile_url": "https://www.linkedin.com/in/alimenkoumikalai/",
+        "photo": "mikalai-alimenkou.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Ben Smith",
+        "position": "Staff developer advocate",
+        "company": "Stripe",
+        "profile_url": "https://www.linkedin.com/in/benjasl/",
+        "photo": "ben-smith.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Hanno Embregts",
+        "position": "Java Champion, Oracle ACE Pro",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/hannotify/",
+        "photo": "hanno-embregts.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Vlad Sydorenko",
+        "position": "Member of Technical Staff",
+        "company": "OpenAI | ex-Netflix",
+        "profile_url": "https://www.linkedin.com/in/vlad-sydorenko/",
+        "photo": "vlad-sydorenko.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Artem Yavorskyi",
+        "position": "Member of Technical Staff",
+        "company": "Writer, Creator of unbuilt.app, ex Netflix, ex Wix",
+        "profile_url": "https://www.linkedin.com/in/yvrsky/",
+        "photo": "artem-yavorskyi.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Ivan Lapa",
+        "position": "Senior UI Engineer, AI Engineering Consultant",
+        "company": "Netflix",
+        "profile_url": "https://www.linkedin.com/in/ai-consult/",
+        "photo": "ivan-lapa.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Yaroslav Yermilov",
+        "position": "Principal Software Engineer",
+        "company": "Preply",
+        "profile_url": "https://www.linkedin.com/in/yarik-yermilov/",
+        "photo": "yaroslav-yermilov.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Marijn Markus",
+        "position": "AI Lead, Managing Data Scientist",
+        "company": "Capgemini",
+        "profile_url": "https://www.linkedin.com/in/marijnmarkus/",
+        "photo": "marijn-markus.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Tomasz Kopacz",
+        "position": "Architect, Software Solution Engineer",
+        "company": "Microsoft",
+        "profile_url": "https://www.linkedin.com/in/tomasz-kopacz-689539/",
+        "photo": "tomasz-kopacz.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Michał Moneta",
+        "position": "Assistant Professor",
+        "company": "SWPS University",
+        "profile_url": "https://www.linkedin.com/in/michmoneta/",
+        "photo": "michal-moneta.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Nicolai Parlog",
+        "position": "Java Developer Advocate",
+        "company": "Oracle",
+        "profile_url": "https://nipafx.dev/nicolai-parlog/",
+        "photo": "nicolai-parlog.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Artem Chernodub",
+        "position": "Staff Machine Learning Scientist",
+        "company": "Zendesk",
+        "profile_url": "https://www.linkedin.com/in/artemchernodub/",
+        "photo": "artem-chernodub.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Devrim Gunduz",
+        "position": "Postgres Expert",
+        "company": "EDB",
+        "profile_url": "https://www.linkedin.com/in/devrimgunduz/",
+        "photo": "devrim-gunduz.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Vamsi Penmetsa",
+        "position": "AI Systems Architect",
+        "company": "EPAM",
+        "profile_url": "https://www.linkedin.com/in/vamsipenmetsa/",
+        "photo": "vamsi-penmetsa.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Taras Kloba",
+        "position": "Chief Partner Architect",
+        "company": "Microsoft",
+        "profile_url": "https://www.linkedin.com/in/kloba/",
+        "photo": "taras-kloba.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Jarek Kusmierek",
+        "position": "Engineering Director / Principal Engineer",
+        "company": "Google",
+        "profile_url": "https://www.linkedin.com/in/jdkusm/",
+        "photo": "jarek-kusmierek.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Sebastian Drzewiecki",
+        "position": "Regional Leader for Central and Eastern Europe",
+        "company": "SoftServe",
+        "profile_url": "https://www.linkedin.com/in/sdrzewiecki/",
+        "photo": "sebastian-drzewiecki.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Kostiantyn Tymoschuk",
+        "position": "VP of Growth",
+        "company": "Skylum",
+        "profile_url": "https://www.linkedin.com/in/costatym/",
+        "photo": "kostiantyn-tymoschuk.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Joseph DeMers",
+        "position": "Director, Global Marketing",
+        "company": "Intellias",
+        "profile_url": "https://www.linkedin.com/in/josephdemers",
+        "photo": "joseph-demers.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Marcin Piesiak",
+        "position": "Regional Delivery Head for Poland",
+        "company": "Ciklum",
+        "profile_url": "https://www.linkedin.com/in/marcin-piesiak/",
+        "photo": "marcin-piesiak.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Florian Barbaro, PhD",
+        "position": "Founder & CEO",
+        "company": "Uncovai",
+        "profile_url": "https://www.linkedin.com/in/florian-barbaro-phd-090048b2/",
+        "photo": "florian-barbaro-phd.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Julia Korytko, PhD",
+        "position": "Deputy Director of Engineering",
+        "company": "Namecheap, Inc",
+        "profile_url": "https://www.linkedin.com/in/juliakorytko/",
+        "photo": "julia-korytko-phd.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Michal Furmankiewicz",
+        "position": "Principal Program Manager",
+        "company": "AI Industry (former Microsoft Azure MVP, Microsoft Certified Trainer)",
+        "profile_url": "https://www.linkedin.com/in/mifurm/",
+        "photo": "michal-furmankiewicz.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Pavlo Plotko",
+        "position": "International Scientific Affairs",
+        "company": "The German Centre for Astrophysics",
+        "profile_url": "https://www.linkedin.com/in/pavlo-plotko/",
+        "photo": "pavlo-plotko.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Lucian Gruia",
+        "position": "Head of Data Science & AI",
+        "company": "Ciklum",
+        "profile_url": "https://www.linkedin.com/in/luciangruiaro/",
+        "photo": "lucian-gruia.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Rafał Nowosielski",
+        "position": "Engineering Manager",
+        "company": "Autodesk",
+        "profile_url": "https://www.linkedin.com/in/rafalnowosielski/",
+        "photo": "rafal-nowosielski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Bohdan Kit",
+        "position": "VP of Product",
+        "company": "WordPress.com",
+        "profile_url": "https://www.linkedin.com/in/bohdankit/",
+        "photo": "bohdan-kit.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Kateryna Hirna",
+        "position": "Head of Recruitment and HR",
+        "company": "Farsight Vision",
+        "profile_url": "https://www.linkedin.com/in/katerynahirna/",
+        "photo": "kateryna-hirna.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Witalij Rudnicki",
+        "position": "Principal Developer Advocate",
+        "company": "SAP",
+        "profile_url": "https://www.linkedin.com/in/witalij/",
+        "photo": "witalij-rudnicki.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Oleks Maistrenko",
+        "position": "CTO",
+        "company": "MISTO",
+        "profile_url": "https://www.linkedin.com/in/oleksandrmaistrenko/",
+        "photo": "oleks-maistrenko.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Elnara Asadova",
+        "position": "QA Lead",
+        "company": "SQUAD",
+        "profile_url": "https://www.linkedin.com/in/elnara-asadova/",
+        "photo": "elnara-asadova.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Wojtek Gawroński",
+        "position": "Developer Advocate",
+        "company": "Unleash",
+        "profile_url": "https://linkedin.com/in/afronski",
+        "photo": "wojtek-gawronski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Bohdan Khomych",
+        "position": "Associate R&D Director",
+        "company": "SoftServe",
+        "profile_url": "https://www.linkedin.com/in/bohdan-khomych-047310135/",
+        "photo": "bohdan-khomych.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Mykyta Antoshchuk",
+        "position": "Solution Engineer",
+        "company": "Snowflake",
+        "profile_url": "https://www.linkedin.com/in/mykytaantoshchuk",
+        "photo": "mykyta-antoshchuk.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Anna Leushchenko",
+        "position": "Senior Staff Engineer / Engineering Manager",
+        "company": "Tide",
+        "profile_url": "https://www.linkedin.com/in/annaleushchenko/",
+        "photo": "anna-leushchenko.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Rostyslav Salata",
+        "position": "Head of Product (B2C)",
+        "company": "Jooble",
+        "profile_url": "https://www.linkedin.com/in/rostyslav-salata/",
+        "photo": "rostyslav-salata.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Sergey Kudryashov",
+        "position": "Product Lead",
+        "company": "Readdle Spark, Venture Partner @ ZAS Ventures",
+        "profile_url": "https://www.linkedin.com/in/quser/",
+        "photo": "sergey-kudryashov.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Monika Nawrot",
+        "position": "Staff Software Engineer & Manager",
+        "company": "Waymo",
+        "profile_url": "https://www.linkedin.com/in/monikanawrot/",
+        "photo": "monika-nawrot.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Pavlo Golub",
+        "position": "Senior Developer",
+        "company": "CYBERTEC",
+        "profile_url": "https://pashagolub.github.io/",
+        "photo": "pavlo-golub.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Kostyantyn Mykhaylovskyy",
+        "position": "Principal Mobile Engineer",
+        "company": "BetterMe",
+        "profile_url": "https://www.linkedin.com/in/kostyantyn-mykhaylovskyy-92294679/",
+        "photo": "kostyantyn-mykhaylovskyy.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Paweł Romul",
+        "position": "Independent IT Architect",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/pawe%C5%82-romul-26b10799/",
+        "photo": "pawel-romul.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Daria Chuprina",
+        "position": "CV / Embedded Engineer / AI Engineering",
+        "company": "Blue Bird Tech",
+        "profile_url": "https://www.linkedin.com/in/dchuprina/",
+        "photo": "daria-chuprina.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Illia Onyschenko",
+        "position": "Founder & CEO",
+        "company": "Detectolic Games",
+        "profile_url": "https://www.linkedin.com/in/illia-onyschenko-3436ba5/",
+        "photo": "illia-onyschenko.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Olek Danczewski",
+        "position": "Cybersecurity Consultant",
+        "company": "Vireston",
+        "profile_url": "https://www.linkedin.com/in/danczewski",
+        "photo": "olek-danczewski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Yevhen Kondrashyn",
+        "position": "Software Engineer",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/yevhen-kondrashyn",
+        "photo": "yevhen-kondrashyn.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Mykhailo Ivanov",
+        "position": "Mobile Tech Lead",
+        "company": "mono",
+        "profile_url": "https://www.linkedin.com/in/mykhivanov/",
+        "photo": "mykhailo-ivanov.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Ivan Zhuravel",
+        "position": "Lead Software Engineer",
+        "company": "Cloudlinux",
+        "profile_url": "https://github.com/ivanguravel",
+        "photo": "ivan-zhuravel.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Robert Przybyłowski",
+        "position": "Lead Data Analyst",
+        "company": "Capital.com",
+        "profile_url": "https://pl.linkedin.com/in/robert-przyby%C5%82owski-04bab0142",
+        "photo": "robert-przybylowski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Dmytro Kovalenko",
+        "position": "Staff Engineer",
+        "company": "Dropbox",
+        "profile_url": "https://www.linkedin.com/in/dmytro-kovalenko-60643036/",
+        "photo": "dmytro-kovalenko.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Hanna Pylieva",
+        "position": "CEO",
+        "company": "Data Loves Academy",
+        "profile_url": "https://www.linkedin.com/in/hanna-pylieva/",
+        "photo": "hanna-pylieva.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Kamil Brzezinski",
+        "position": "Group Product Manager",
+        "company": "Asana",
+        "profile_url": "https://www.linkedin.com/in/brzezinski/",
+        "photo": "kamil-brzezinski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Maksym Kotliar",
+        "position": "Staff Research Engineer",
+        "company": "MacPaw",
+        "profile_url": "https://www.linkedin.com/in/maksym-kotliar/",
+        "photo": "maksym-kotliar.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Adam Warski",
+        "position": "Head of R&D at SoftwareMill",
+        "company": "SoftwareMill",
+        "profile_url": "https://www.linkedin.com/in/adamwarski/",
+        "photo": "adam-warski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Maksym Ulanov",
+        "position": "Frontend Software Engineer",
+        "company": "Atlassian",
+        "profile_url": "https://www.linkedin.com/in/max-ulanov",
+        "photo": "maksym-ulanov.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Łukasz Wiśniewski",
+        "position": "Indie Dev",
+        "company": "AmperRank, Translamore",
+        "profile_url": "https://www.linkedin.com/in/lukaszwisniewski/",
+        "photo": "lukasz-wisniewski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Przemyslaw Koper",
+        "position": "CEO",
+        "company": "ESPEO",
+        "profile_url": "https://www.linkedin.com/in/przemyslawkoper/",
+        "photo": "przemyslaw-koper.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Adrian Romański",
+        "position": "Software Engineer",
+        "company": "PushBased | GDE Angular",
+        "profile_url": "https://www.linkedin.com/in/adrianromanski/",
+        "photo": "adrian-romanski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Piotr Ceranek",
+        "position": "Senior Software Engineer",
+        "company": "Allegro",
+        "profile_url": "https://www.linkedin.com/in/piotr-ceranek/",
+        "photo": "piotr-ceranek.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Denys Makogon",
+        "position": "Principal Software Development Engineer",
+        "company": "Oracle",
+        "profile_url": "https://www.linkedin.com/in/denys-makogon-45338150/",
+        "photo": "denys-makogon.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Maksym Voitko",
+        "position": "R&D Tech Lead",
+        "company": "monday.com",
+        "profile_url": "https://www.linkedin.com/in/mvoitko/",
+        "photo": "maksym-voitko.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Kris Kosyk",
+        "position": "Co-owner",
+        "company": "Filab",
+        "profile_url": "https://www.linkedin.com/in/kriskosyk/",
+        "photo": "kris-kosyk.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Ihor Olkhovatyi",
+        "position": "Senior Applied Scientist",
+        "company": "SQUAD",
+        "profile_url": "https://www.linkedin.com/in/ihor-olkhovatyi/",
+        "photo": "ihor-olkhovatyi.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Ignas Paplauskas",
+        "position": "Head of Engineering",
+        "company": "Saily",
+        "profile_url": "https://www.linkedin.com/in/ignaspaplauskas/",
+        "photo": "ignas-paplauskas.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Sasha Marynych",
+        "position": "Engineering Manager",
+        "company": "Superhuman",
+        "profile_url": "https://www.linkedin.com/in/sasha-marynych/",
+        "photo": "sasha-marynych.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Luisa Gonçalves",
+        "position": "Senior Product Manager",
+        "company": "Superhuman",
+        "profile_url": "https://www.linkedin.com/in/luisa-gon%C3%A7alves-02b90480/",
+        "photo": "luisa-goncalves.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Mateusz Sadowski",
+        "position": "Robotics Developer Relations",
+        "company": "Foxglove",
+        "profile_url": "https://www.linkedin.com/in/mateuszsadowski/",
+        "photo": "mateusz-sadowski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Kacper Reutt",
+        "position": "Director of Engineering",
+        "company": "Waymo",
+        "profile_url": "https://www.linkedin.com/in/kacperreutt/",
+        "photo": "kacper-reutt.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Oleksandr Piekhota",
+        "position": "Principal Software Engineer",
+        "company": "Teaching Strategies, LLC",
+        "profile_url": "https://www.linkedin.com/in/oleksandr-piekhota-b675ba53/",
+        "photo": "oleksandr-piekhota.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Ruslan Turlakov",
+        "position": "CMO",
+        "company": "EPC Network",
+        "profile_url": "https://www.linkedin.com/in/ruslan-turlakov/",
+        "photo": "ruslan-turlakov.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Clemens Mayer",
+        "position": "Founder",
+        "company": "MAYER MAKES",
+        "profile_url": "https://www.linkedin.com/in/mayermakes/",
+        "photo": "clemens-mayer.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Vadym Vlasenko",
+        "position": "Senior Engineering Director",
+        "company": "Preply",
+        "profile_url": "https://www.linkedin.com/in/vadym-vlasenko-699a9222/",
+        "photo": "vadym-vlasenko.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Aditya Kamath",
+        "position": "Roboticist and Technical Content Developer",
+        "company": "Kamath Robotics",
+        "profile_url": "https://www.linkedin.com/in/adityakamath/",
+        "photo": "aditya-kamath.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Paweł Łochowski",
+        "position": "Field Application Engineer",
+        "company": "Swarmer Inc",
+        "profile_url": "https://www.linkedin.com/in/pawellochowski/",
+        "photo": "pawel-lochowski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Przemysław Frasunek",
+        "position": "CEO",
+        "company": "Redge Technologies",
+        "profile_url": "https://www.linkedin.com/in/venglin/",
+        "photo": "przemyslaw-frasunek.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Maciej Broniarz",
+        "position": "Cybersecurity Incident Response Expert",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/mjbroniarz/",
+        "photo": "maciej-broniarz.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Yevhen Kovalevskiy",
+        "position": "VP Engineering",
+        "company": "The Fourth Law",
+        "profile_url": "https://www.linkedin.com/in/yevhen-kovalevskiy-33174155/",
+        "photo": "yevhen-kovalevskiy.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Alina Ashortiia",
+        "position": "Founder",
+        "company": "JOIDY",
+        "profile_url": "https://www.linkedin.com/in/alinaashortiia/",
+        "photo": "alina-ashortiia.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Jan Kleczkowski",
+        "position": "AI & Cloud Transformation Lead, Microsoft Poland Board Member",
+        "company": "Microsoft",
+        "profile_url": "https://www.linkedin.com/in/jan-kleczkowski-ab117914/",
+        "photo": "jan-kleczkowski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Lukasz Romaniuk",
+        "position": "Senior Director, Software Engineering and Warsaw Tech Hub Leader",
+        "company": "Netflix",
+        "profile_url": "https://www.linkedin.com/in/lromaniuk/",
+        "photo": "lukasz-romaniuk.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Barbara Wilk",
+        "position": "Director, Global Talent Acquisition and People Analytics",
+        "company": "Appfire",
+        "profile_url": "https://www.linkedin.com/in/wilkbarbara/",
+        "photo": "barbara-wilk.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Borys Musielak",
+        "position": "Founding Partner",
+        "company": "SMOK Ventures",
+        "profile_url": "https://www.linkedin.com/in/musielak/",
+        "photo": "borys-musielak.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Łukasz Jakubowski",
+        "position": "CEO",
+        "company": "Delta FDE",
+        "profile_url": "https://www.linkedin.com/in/woocashh/",
+        "photo": "lukasz-jakubowski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Alicja Malok",
+        "position": "Senior Director",
+        "company": "Hays",
+        "profile_url": "https://www.linkedin.com/in/alicja-malok-26425032/",
+        "photo": "alicja-malok.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Alex Petrunenko",
+        "position": "VP of AI & No-Code Transformation",
+        "company": "Creatio",
+        "profile_url": "https://www.linkedin.com/in/alex-petrunenko-7828b956/",
+        "photo": "alex-petrunenko.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Luke (Lukasz) Szyrmer",
+        "position": "Principal Product Consultant",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/lszyrmer/",
+        "photo": "luke-lukasz-szyrmer.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Andrii Zavadskyi",
+        "position": "Senior Principal Software Engineer",
+        "company": "airSlate",
+        "profile_url": "https://www.linkedin.com/in/andrii-zavadskyi/",
+        "photo": "andrii-zavadskyi.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Krzysztof Skowron",
+        "position": "Head of Capgemini Engineering Poland",
+        "company": null,
+        "profile_url": "https://www.linkedin.com/in/krzysztofskowron/",
+        "photo": "krzysztof-skowron.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Vlad Kampov",
+        "position": "Engineering Manager",
+        "company": "Netflix",
+        "profile_url": "https://www.linkedin.com/in/kampov/",
+        "photo": "vlad-kampov.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Wojtek Strzałkowski",
+        "position": "Co-founder",
+        "company": "superhero.tech",
+        "profile_url": "https://www.linkedin.com/in/wojtek-strzalkowski/",
+        "photo": "wojtek-strzalkowski.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Eugene Plokhoj",
+        "position": "VP of Product",
+        "company": "Readdle",
+        "profile_url": "https://www.linkedin.com/in/plokhoj/",
+        "photo": "eugene-plokhoj.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Alex Skakunov",
+        "position": "Technical Lead",
+        "company": "TaxerApp",
+        "profile_url": "https://www.linkedin.com/in/skakunov/",
+        "photo": "alex-skakunov.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Maja Gojtowska",
+        "position": "HR & Employer Branding Expert",
+        "company": "Gojtowska.com",
+        "profile_url": "https://www.linkedin.com/in/majagojtowska/",
+        "photo": "maja-gojtowska.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Nataliia Ohiienko",
+        "position": "Director",
+        "company": "Moodro Tech",
+        "profile_url": "https://www.linkedin.com/in/natalie-ohiienko-622a18210/",
+        "photo": "nataliia-ohiienko.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Kateryna",
+        "position": "International Partnerships Manager",
+        "company": "Wild Hornets",
+        "profile_url": null,
+        "photo": "kateryna.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Maksym Cherkis",
+        "position": "COO in Ukraine",
+        "company": "STARK",
+        "profile_url": "https://www.linkedin.com/in/maksym-cherkis/",
+        "photo": "maksym-cherkis.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Alex Lebedev",
+        "position": "AI Product Engineer",
+        "company": "PostHog",
+        "profile_url": null,
+        "photo": "alex-lebedev.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Yurii Kuka",
+        "position": "Head of Business Operations",
+        "company": "GR8_TECH",
+        "profile_url": "https://www.linkedin.com/in/yura-kuka/",
+        "photo": "yurii-kuka.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Mariia Krasnoschok",
+        "position": "Country Coordinator EU4Innovation East",
+        "company": "Expertise France in Ukraine",
+        "profile_url": "https://www.linkedin.com/in/makrisian/",
+        "photo": "mariia-krasnoschok.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Wojciech Domagała",
+        "position": "Product Manager",
+        "company": "Allegro",
+        "profile_url": "https://www.linkedin.com/in/domagalawojciech/",
+        "photo": "wojciech-domagala.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Secret Guest",
+        "position": null,
+        "company": null,
+        "profile_url": null,
+        "photo": "secret-guest.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Aliaksandr Valialkin",
+        "position": "Founder and CTO",
+        "company": "VictoriaMetrics",
+        "profile_url": "https://www.linkedin.com/in/valyala/",
+        "photo": "aliaksandr-valialkin.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Andrii Degeler",
+        "position": "Tech journalist",
+        "company": "Unzip.Media",
+        "profile_url": "https://www.linkedin.com/in/shlema/",
+        "photo": "andrii-degeler.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Elena Mazhuha",
+        "position": "Partner",
+        "company": "Flyer One Ventures",
+        "profile_url": "https://www.linkedin.com/in/mazhuha/",
+        "photo": "elena-mazhuha.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Iva Kozlovska",
+        "position": "Co-founder & CEO",
+        "company": "Qubit Labs",
+        "profile_url": "https://www.linkedin.com/in/ivakozlovskaya/",
+        "photo": "iva-kozlovska.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Piotr Kacała",
+        "position": "Supervisory Board",
+        "company": "morele.net",
+        "profile_url": "https://www.linkedin.com/in/piotr-kacala/",
+        "photo": "piotr-kacala.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Florian Stefan",
+        "position": "Principal Engineer",
+        "company": "HelloFresh",
+        "profile_url": "https://www.linkedin.com/in/florian-stefan-90553a109/",
+        "photo": "florian-stefan.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Rafał Małanij",
+        "position": "Director of Technology, AI & Data Strategy",
+        "company": "CBRE Poland",
+        "profile_url": "https://www.linkedin.com/in/malanij/",
+        "photo": "rafal-malanij.webp",
+        "is_featured": false
+    },
+    {
+        "name": "Yaroslav",
+        "position": "COO",
+        "company": "Wild Hornets",
+        "profile_url": null,
+        "photo": "yaroslav.webp",
+        "is_featured": false
+    }
+]

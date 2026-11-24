@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 28" height="28" role="img" aria-label="WAWTech Demo">
+    <text x="0" y="21" font-family="ui-sans-serif, system-ui, sans-serif" font-size="21" font-weight="700" letter-spacing="-0.3">
+        <tspan fill="currentColor">WAWTech</tspan><tspan fill="#f501a4" font-weight="500" dx="6">Demo</tspan>
+    </text>
+</svg>

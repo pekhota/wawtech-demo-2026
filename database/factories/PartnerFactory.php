@@ -1,0 +1,28 @@
+<?php
+
+namespace Database\Factories;
+
+use App\Enums\PartnerTier;
+use App\Models\Partner;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+/**
+ * @extends Factory<Partner>
+ */
+class PartnerFactory extends Factory
+{
+    /**
+     * Define the model's default state.
+     *
+     * @return array<string, mixed>
+     */
+    public function definition(): array
+    {
+        return [
+            'name' => fake()->company(),
+            'tier' => fake()->randomElement(PartnerTier::cases()),
+            'url' => fake()->url(),
+            'sort_order' => 0,
+        ];
+    }
+}

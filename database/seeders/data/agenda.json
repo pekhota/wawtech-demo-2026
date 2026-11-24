@@ -1,0 +1,1760 @@
+[
+    {
+        "stage": "MAIN",
+        "title": "Opening",
+        "description": null,
+        "starts_at": "2026-11-26 09:00",
+        "ends_at": "2026-11-26 09:25",
+        "tags": [],
+        "speakers": []
+    },
+    {
+        "stage": "MAIN",
+        "title": "TBD",
+        "description": null,
+        "starts_at": "2026-11-26 09:30",
+        "ends_at": "2026-11-26 10:25",
+        "tags": [
+            "panel"
+        ],
+        "speakers": []
+    },
+    {
+        "stage": "GROWTH",
+        "title": "What we have learned about GenAI and Agents adoption in the last 5 years. Experience from the field after working with customers in Poland and globally",
+        "description": null,
+        "starts_at": "2026-11-26 09:30",
+        "ends_at": "2026-11-26 09:55",
+        "tags": [
+            "Business",
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Michal Furmankiewicz",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "The Harness Layer — Running AI Platforms in Regulated Environments",
+        "description": "<p>Agentic AI is easy to demo and hard to run in a regulated environment. This session is a practical playbook for adopting the harness layer — the governance, safety, and operational controls that make AI agents viable where compliance is non-negotiable. Drawing from EPAM's work helping enterprise clients adopt agentic AI at scale, it covers the patterns that matter: guardrails that don't kill velocity, compliance automation, and the path from experiment to enterprise-scale deployment. For engineers and architects who want agentic AI in production, not just in a proof of concept.</p>",
+        "starts_at": "2026-11-26 09:30",
+        "ends_at": "2026-11-26 10:15",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Vamsi Penmetsa",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "How to minimize the token usage with agentic coding",
+        "description": "<p>Have a typical project repository and Measure the effect of each optimization with the participants.</p>",
+        "starts_at": "2026-11-26 10:00",
+        "ends_at": "2026-11-26 10:55",
+        "tags": [
+            "AI",
+            "workshop"
+        ],
+        "speakers": [
+            {
+                "name": "Maksym Voitko",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "PRO STAGE",
+        "title": "The AI Reality Check",
+        "description": null,
+        "starts_at": "2026-11-26 10:00",
+        "ends_at": "2026-11-26 10:45",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Artem Yavorskyi",
+                "is_moderator": false
+            },
+            {
+                "name": "Ivan Lapa",
+                "is_moderator": false
+            },
+            {
+                "name": "Yaroslav Yermilov",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Beyond AI Adoption: Why organizational capability is the new competitive advantage",
+        "description": "<p>AI is becoming a commodity. The real competitive advantage now lies in an organization’s ability to translate AI into products customers love, faster decisions, and measurable revenue growth. This session explores why organizational capability, not technology, is the defining factor for success in the AI era.</p>",
+        "starts_at": "2026-11-26 10:00",
+        "ends_at": "2026-11-26 10:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Joseph DeMers",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "Building AI Agents That Don’t Suck",
+        "description": "<p>In this live coding session, Nuno Maduro walks you through building an AI agent, from the first prompt in the terminal all the way to a deployed app inside Slack.</p>\n<p>Along the way, we'll give the agent tools and sub-agents and deploy it to Laravel Cloud. Then, once it's live in Slack, we'll get into what it takes to run an agent for real: attachments, durable execution, steering conversations, scheduled tasks, and evals. Everything is built with Laravel's open-source Agent Stack. No experience building AI agents needed.</p>\n<p>Nuno Maduro is an open-source developer and the person behind Pest, Pint, and more. His projects have been downloaded more than two billion times.</p>",
+        "starts_at": "2026-11-26 10:30",
+        "ends_at": "2026-11-26 11:15",
+        "tags": [],
+        "speakers": [
+            {
+                "name": "Nuno Maduro",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Your System Will Fail. What Now?",
+        "description": "<p>Your system will fail. definitely. The only question is whether you'll be ready when it happens. This talk walks through two real incidents, the architectural decisions that saved one system and destroyed the other, and the mindset shift that changes how you write code every day.</p>",
+        "starts_at": "2026-11-26 10:30",
+        "ends_at": "2026-11-26 10:55",
+        "tags": [
+            "Engineering"
+        ],
+        "speakers": [
+            {
+                "name": "Paweł Romul",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Nobody needs a CTO anymore: I went up the ladder and came back down",
+        "description": null,
+        "starts_at": "2026-11-26 10:30",
+        "ends_at": "2026-11-26 10:55",
+        "tags": [
+            "Business"
+        ],
+        "speakers": [
+            {
+                "name": "Oleks Maistrenko",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "Agent Orchestration as an Extension of CI/CD",
+        "description": "<p>The model is no longer the bottleneck in agentic development, human attention is. This talk shows how SignNow turned its Jira backlog into a pipeline that produces pull requests, and how the very first, unoptimized version of that workflow made delivery per technical task 2x faster, even though engineers insisted they were faster locally.</p>",
+        "starts_at": "2026-11-26 11:00",
+        "ends_at": "2026-11-26 11:25",
+        "tags": [
+            "Engineering"
+        ],
+        "speakers": [
+            {
+                "name": "Andrii Zavadskyi",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Beyond the Hype: Practical AI in Cybersecurity",
+        "description": "<p>Artificial intelligence is transforming cybersecurity, but separating practical value from marketing hype remains a challenge. This session explores practical use cases, lessons learned and common pitfalls when applying AI to security operations, including investigations, reporting, automation and decision support. Attendees will leave with actionable ideas to improve security effectiveness and team productivity, including practical guidance on validating AI outputs.</p>",
+        "starts_at": "2026-11-26 11:00",
+        "ends_at": "2026-11-26 11:25",
+        "tags": [
+            "AI",
+            "Security"
+        ],
+        "speakers": [
+            {
+                "name": "Olek Danczewski",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "From Lab to Battlefield: Engineering Autonomous Systems For Real-World Impact",
+        "description": "<p>Building autonomous drones is one thing. Building systems that survive real-world conditions is another. Pawel explores what hardware engineers learn when prototypes leave the workshop and enter demanding field testing — from rapid iteration and cross-functional collaboration to designing for reliability under constant operational feedback.</p>",
+        "starts_at": "2026-11-26 11:00",
+        "ends_at": "2026-11-26 11:25",
+        "tags": [
+            "Deftech"
+        ],
+        "speakers": [
+            {
+                "name": "Paweł Łochowski",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "From Adoption to Impact: AI at Bolt",
+        "description": "<p>Most organizations have adopted AI. Far fewer can say what it actually changed. Using historical parallels and Bolt’s own experience, this talk explores where AI delivers real impact and why the biggest hurdle may not be the technology.</p>",
+        "starts_at": "2026-11-26 11:30",
+        "ends_at": "2026-11-26 11:55",
+        "tags": [],
+        "speakers": [
+            {
+                "name": "Siim Viidu",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "Your Autonomous Engineering Team: Building GitHub Agentic Workflows That Maintain Your Project",
+        "description": "<p>Modern AI agents can do much more than generate code—they can continuously monitor, review, test, document, and improve your GitHub repositories. This session demonstrates how to build an autonomous team of AI agents that collaborates through GitHub workflows to reduce maintenance effort while keeping developers in control.</p>",
+        "starts_at": "2026-11-26 11:30",
+        "ends_at": "2026-11-26 12:25",
+        "tags": [
+            "AI",
+            "workshop"
+        ],
+        "speakers": [
+            {
+                "name": "Taras Kloba",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Your LLM Doesn’t Need Better Prompts. It Needs a P&L",
+        "description": "<p>Can you trust an LLM with money? A convincing answer or a high click-through rate does not tell you whether a decision is good for business.</p>\n<p>Drawing on his experience with LLM-generated marketing content, Ruslan will explain why yesterday’s winning creatives can fail when market conditions change. He will explore how campaign results inform the system’s next decisions, what actually changes when it “learns from money,” and how financial metrics, spending limits, and observed results shape the scope of delegation.</p>\n<p>Attendees will gain a practical understanding of what it takes to move from generating content to choosing actions and allocating budgets, and what evidence is needed before trusting AI with those decisions.</p>",
+        "starts_at": "2026-11-26 11:30",
+        "ends_at": "2026-11-26 11:55",
+        "tags": [
+            "marketing"
+        ],
+        "speakers": [
+            {
+                "name": "Ruslan Turlakov",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "PRO STAGE",
+        "title": "What Makes a Global Tech Hub",
+        "description": null,
+        "starts_at": "2026-11-26 11:30",
+        "ends_at": "2026-11-26 12:15",
+        "tags": [
+            "Business",
+            "Product",
+            "Engineering"
+        ],
+        "speakers": [
+            {
+                "name": "Lukasz Romaniuk",
+                "is_moderator": false
+            },
+            {
+                "name": "Kacper Reutt",
+                "is_moderator": false
+            },
+            {
+                "name": "Jan Kleczkowski",
+                "is_moderator": false
+            },
+            {
+                "name": "Iva Kozlovska",
+                "is_moderator": true
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "How to build the most accurate object detection",
+        "description": "<p>Theses:\n<br>- what is object detection? \n<br>- A brief history of computer vision and object detection models (basic convolutional layer logic, explanation of classic backbones, using features in 2-stage like RCNN or 1-stage YOLO v2 models)\n<br>- Why transformer models took over the world? (transformers in LLMs, multi-head attention mechanism, ViT, DINO backbone)\n<br>- DETR: it’s beaty and graceful implications (DETR, no expensive NMS, using object queries for specific tasks paired with detection like subclass or distance)\n<br>- Can I run this on a microwave? (RF-DETR, optimizations that makes it a go to choice expect you are really limited in compute)</p>",
+        "starts_at": "2026-11-26 11:30",
+        "ends_at": "2026-11-26 11:55",
+        "tags": [
+            "SciTech"
+        ],
+        "speakers": [
+            {
+                "name": "Ihor Olkhovatyi",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "When “Buy” Becomes a Function Call",
+        "description": "<p>The next era of commerce will be defined by machines transacting with machines. AI agents will discover services, authorize spending, and settle payments without traditional checkout flows.</p>\n<p>This talk explores the infrastructure enabling that shift, from MPP and programmable payment mandates to agent identity and permission-based tokens. We’ll examine how autonomous systems can transact securely across organizational boundaries while preserving human control, enforcing spending policies, and maintaining auditable authorization.</p>\n<p>Attendees will leave with a practical understanding of agentic payments and what it takes to build a trusted machine-to-machine economy.</p>",
+        "starts_at": "2026-11-26 12:00",
+        "ends_at": "2026-11-26 12:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Ben Smith",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "The Scaling Tax: Growing The Mobile Team Beyond 100 Engineers",
+        "description": "<p>Growing an engineering team beyond 100 developers is a clear sign of success, but it also comes with new kinds of problems. The so-called 'Scaling Tax' starts to show through growing technical debt, slower delivery cycle, fragmented ownership of critical platform components, and a lack of systemic improvements. At this stage, to continue scaling effectively, organizations cannot simply hire their way out of this stagnation with more feature developers and need to invest not only in the product but in the systems, tools, and structures that support the people building it.\n<br> \n<br>This talk shares the practices we’ve applied at Tide, where the mobile team exceeds 100 engineers, such as modular project structure, a dedicated platform team, solid automation, extensive onboarding, etc., to build a foundation that supports engineering at this scale.</p>",
+        "starts_at": "2026-11-26 12:00",
+        "ends_at": "2026-11-26 12:25",
+        "tags": [
+            "Engineering",
+            "Leadership"
+        ],
+        "speakers": [
+            {
+                "name": "Anna Leushchenko",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Loops, Skills, Artifacts, Factory: How I Turned AI Buzzwords Into a Personal Assistant That Actually Improved My Life",
+        "description": "<p>Loops, skills, artifacts, factory. Let's skip the hype and take them apart on real, practical tasks - and not just those four. My running example is a personal AI assistant I spent the past year building. It isn't a chatbot. It's a task queue with a roster of agents that pick up work, do it, and report back. It now runs my life admin: booking my car service, hunting down rare vinyl, filing my sole-proprietor taxes, charting my apartment's power outages. I haven't done any of it by hand in months. This is the pragmatic, failures-included story of what those words mean once they stop being slideware and start paying rent - right down to this very talk description, which my assistant and I brainstormed and submitted together.</p>",
+        "starts_at": "2026-11-26 12:00",
+        "ends_at": "2026-11-26 12:45",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Yaroslav Yermilov",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "These Songs Would Make Some Great Code Comments",
+        "description": "<p>Besides being useful, comments in source code can also be fun! This legendary StackOverflow post tells me that sometimes a well-chosen joke put into source code can lighten the mood at work and make your developer life just a bit better.</p>\n<p>Now, because I am both a developer and a musician, I tend to use song lyrics to lighten up my code. So in this Ignite talk, I’ll demonstrate this by showing a few typical code fragments that could use some musical quality. And of course I’ll perform bits of the songs that go with it.</p>\n<p>So are you in for a light-hearted talk on code comments - slash - a mini-concert featuring songs by Coldplay, Oasis, Adam Lambert, Imagine Dragons and many more? Please join in and feel free to sing along!</p>",
+        "starts_at": "2026-11-26 12:30",
+        "ends_at": "2026-11-26 12:55",
+        "tags": [
+            "dev"
+        ],
+        "speakers": [
+            {
+                "name": "Hanno Embregts",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "PRO STAGE",
+        "title": "AI-Driven Transformation of IT Business",
+        "description": null,
+        "starts_at": "2026-11-26 12:30",
+        "ends_at": "2026-11-26 13:15",
+        "tags": [
+            "Business",
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Wojciech Domagała",
+                "is_moderator": false
+            },
+            {
+                "name": "Przemyslaw Koper",
+                "is_moderator": false
+            },
+            {
+                "name": "Alex Petrunenko",
+                "is_moderator": false
+            },
+            {
+                "name": "Vlad Kampov",
+                "is_moderator": true
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Cognitive Debt Is the New Technical Debt: The Price of Letting AI Think First",
+        "description": "<p>Every engineer knows what technical debt costs. But while we've built entire disciplines around managing shortcuts in code (especially with AI as a helping hand), we're taking massive, unmeasured shortcuts in thinking – outsourcing analysis and often decision-making to AI before we've done the work ourselves.</p>\n<p>Hence, this talk introduces cognitive debt: what it is, why tech teams accumulate it faster than anyone, and how to keep AI's leverage without losing the ability to think first.</p>",
+        "starts_at": "2026-11-26 12:30",
+        "ends_at": "2026-11-26 13:15",
+        "tags": [
+            "SciTech"
+        ],
+        "speakers": [
+            {
+                "name": "Michał Moneta",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "Twoje wdrożenie AI nie uda się bo popełniasz ten sam błąd co 95% innych organizacji – PL",
+        "description": "<p>Globalne dane dotyczące wdrożeń AI pokazują, że w 95% organizacje ponoszą klęskę. Jak znaleźć się w tych 5%? Co musisz zrobić ty jako menedżer / zarząd a do czego przekonać swoich pracowników? Jakie nauki dotyczące AI można wyciągnąć obserwując wdrażania w fabrykach silnika elektrycznego w XIX wiecznej Anglii? Jak z sukcesem wdrażać AI w w swojej organizacji, co dokładnie trzeba posiadać i dlaczego to jest bardzo trudne (ale możliwe do zrobienia nawet od jutra)?</p>",
+        "starts_at": "2026-11-26 13:00",
+        "ends_at": "2026-11-26 13:45",
+        "tags": [
+            "Business",
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Artur Kurasiński",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "Women in Miltech & Engineering: Why You Should Try",
+        "description": "<p>Fifteen years in sales and logistics, teachers who said maths was not my thing — and a maternity leave that became my way into IT. Today I work on computer vision in defence tech.\n<br>In this workshop a Raspberry Pi with an AI accelerator sits on stage and watches the room. It counts your raised hands and sorts them by type — then the same pipeline detects and classifies military targets. We'll look at several ways to collect data when nobody publishes it, and how a model trained on a big GPU is rebuilt to run on a tiny on-board computer. You leave with a free PDF roadmap into Embedded and CV.</p>",
+        "starts_at": "2026-11-26 13:00",
+        "ends_at": "2026-11-26 13:55",
+        "tags": [
+            "Deftech",
+            "workshop"
+        ],
+        "speakers": [
+            {
+                "name": "Daria Chuprina",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Becoming AI-Native at HelloFresh: What We Built, What Broke, What’s Next",
+        "description": "<p>Our mission is short and bold: to change the way people eat - forever. To get there, we are rethinking how work gets done, with AI at its heart. But this talk is not another blueprint for a dark software factory. It’s a travelogue from HelloFresh’s journey to becoming AI-native: what works, what doesn’t, and what surprised us. We’ll stop at a few sights along the route: how we see where each team stands and what helps it next, an AI model router with budget control, agents at the gate between a change and production, evaluations that tell us whether a new model, memory, or tool is worth it, and the infrastructure that lets agents act on their own. Come along if you’ve ever wondered what it takes to bring a whole organisation on that journey.</p>",
+        "starts_at": "2026-11-26 13:00",
+        "ends_at": "2026-11-26 13:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Florian Stefan",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "PRO STAGE",
+        "title": "Ask Me Anything",
+        "description": null,
+        "starts_at": "2026-11-26 13:30",
+        "ends_at": "2026-11-26 13:55",
+        "tags": [],
+        "speakers": [
+            {
+                "name": "José Valim",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Robotics devices from mobile app perspective: challenges & solutions",
+        "description": "<p>Smart home devices used to sit still. The next generation drives, flies, and patrols - and the mobile app is no longer a remote control, it's a cockpit. When your app commands a machine moving through the physical world, everything changes: communication protocols, state management, failure modes, and how you test all of it.</p>\n<p>We'll dive into how mobile apps control robotic devices over WebRTC signalling, why real-time command protocols demand fail-safe design, and which scenarios are unique to robotics: mission interruptions, command conflicts, reconnection mid-flight, and safety-critical controls.</p>\n<p>You'll walk away with a practical understanding of the challenges robotics brings to mobile QA, and proven strategies for testing devices that move - manually and in automation.</p>",
+        "starts_at": "2026-11-26 13:30",
+        "ends_at": "2026-11-26 13:55",
+        "tags": [
+            "QA"
+        ],
+        "speakers": [
+            {
+                "name": "Elnara Asadova",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Local Models, Global Deals",
+        "description": "<p>Every AI feature on a cloud API pays a meter on every call. We built our go-to-market on the opposite: models that run on the user’s machine.\n<br>From out-pricing cloud competitors with Luminar Engine to landing on OEM launch stages with the AI PC wave — when offline AI wins on economics, speed and trust, and how to turn it into distribution and a moat.</p>",
+        "starts_at": "2026-11-26 13:30",
+        "ends_at": "2026-11-26 13:55",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Kostiantyn Tymoschuk",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "What Makes a Tech Product Win in 2026",
+        "description": null,
+        "starts_at": "2026-11-26 14:00",
+        "ends_at": "2026-11-26 14:45",
+        "tags": [
+            "Product"
+        ],
+        "speakers": [
+            {
+                "name": "Mariusz Gąsiewski",
+                "is_moderator": false
+            },
+            {
+                "name": "Luke (Lukasz) Szyrmer",
+                "is_moderator": false
+            },
+            {
+                "name": "Wojtek Strzałkowski",
+                "is_moderator": false
+            },
+            {
+                "name": "Eugene Plokhoj",
+                "is_moderator": true
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "Before Your AI Can Send Email: Designing Trust and Permission Boundaries for Agentic Products",
+        "description": "<p>AI agents become useful when they can act — and dangerous for the same reason. A production case study from Spark on progressive permissions, trusted-send UX, and enforcing user control at the action boundary rather than relying on prompts.</p>",
+        "starts_at": "2026-11-26 14:00",
+        "ends_at": "2026-11-26 14:25",
+        "tags": [
+            "Product",
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Sergey Kudryashov",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Modern Java - Past, Present, and Future",
+        "description": "<p>From pattern matching to virtual threads and startup time improvements, Java has made big strides in recent years. And it's not done yet! With value types entering the language and structured concurrency finalizing, it currently takes another two big steps into the future. And what's waiting there? More startup and warmup time improvements, a more powerful type system and runtime, deeper progress into data-centric programming, and native AI capabilities. Let's have a look!</p>",
+        "starts_at": "2026-11-26 14:00",
+        "ends_at": "2026-11-26 14:25",
+        "tags": [
+            "Engineering"
+        ],
+        "speakers": [
+            {
+                "name": "Nicolai Parlog",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Is BI Dead? Data Analytics of the future",
+        "description": "<p>Discover how to eliminate the hidden costs of unused reporting, de-risk your operations with a governed semantic layer, and drive profitable execution by bringing AI directly into the workflow.</p>",
+        "starts_at": "2026-11-26 14:00",
+        "ends_at": "2026-11-26 14:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Mykyta Antoshchuk",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "PRO STAGE",
+        "title": "Engineering Productivity: Are We Measuring the Wrong Things?",
+        "description": null,
+        "starts_at": "2026-11-26 14:00",
+        "ends_at": "2026-11-26 14:45",
+        "tags": [
+            "Engineering",
+            "Leadership"
+        ],
+        "speakers": [
+            {
+                "name": "Siim Viidu",
+                "is_moderator": false
+            },
+            {
+                "name": "Vadym Vlasenko",
+                "is_moderator": false
+            },
+            {
+                "name": "Julia Korytko, PhD",
+                "is_moderator": true
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Open-Source Robotics for Software Engineers",
+        "description": null,
+        "starts_at": "2026-11-26 14:30",
+        "ends_at": "2026-11-26 14:55",
+        "tags": [
+            "Engineering"
+        ],
+        "speakers": [
+            {
+                "name": "Aditya Kamath",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "The Sovereign Mind: Learning with Gemini and Gemma Without Losing Control",
+        "description": null,
+        "starts_at": "2026-11-26 14:30",
+        "ends_at": "2026-11-26 14:55",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Adrian Romański",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "What it means to be an expert in the age of AI?",
+        "description": "<p>How AI changed the definition of \"expertise\"? What is important to still be relevant on the market and be perceived as the expert?</p>",
+        "starts_at": "2026-11-26 15:00",
+        "ends_at": "2026-11-26 15:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Mariusz Gąsiewski",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Designing for compromise: security architecture for mission-critical systems",
+        "description": "<p>Imagine two mission-critical systems exchanging sensitive data, when either system, or the network between them, could be compromised. We’ll build a secure integration architecture step by step, challenging common assumptions about trust, and introducing trust boundaries, identities, access control, data minimisation, encryption, and other security controls that limit blast radius.</p>\n<p>Using practical examples from defence technology, we’ll explore how layered architectural decisions help contain attacks, protect critical data, and keep systems operational even when individual security controls fail.</p>",
+        "starts_at": "2026-11-26 15:00",
+        "ends_at": "2026-11-26 15:45",
+        "tags": [
+            "Security"
+        ],
+        "speakers": [
+            {
+                "name": "Anastasiia Voitova",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "From Teleop to Policy: Training a Robot Arm with LeRobot and MCAP",
+        "description": "<p>In this workshop, I'll take a real robot arm through the full learning loop live on stage. First, you'll learn how to collect demonstrations on a real robot and record them to MCAP, an open log format built for multimodal robotics data. Then I'll review and curate the episodes in Foxglove, cut the bad takes, and show how to train a real policy with LeRobot. Finally, I'll deploy the policy on the arm and run it live.</p>\n<p>You'll learn how to:\n<br>Record synchronized camera, joint state, and action data to MCAP\n<br>Spot and remove bad demonstrations before they reach training\n<br>Go from a trained LeRobot policy to a running arm\n<br>You'll leave with access to the system that allows you to run the whole loop.</p>",
+        "starts_at": "2026-11-26 15:00",
+        "ends_at": "2026-11-26 15:55",
+        "tags": [
+            "Engineering",
+            "workshop"
+        ],
+        "speakers": [
+            {
+                "name": "Mateusz Sadowski",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Do Software Factories Actually Work? We Built One: 4M Sandboxes and 90k PRs Later",
+        "description": "<p>We released PostHog Self-driving right before the WAWTECH Summer: agents that go through your product data, spot problems and open pull requests for them. Since then 15,000+ companies have used it, and we’ve seen what works and what doesn’t. I’ll show how we built it and what we learned along the way. Bonus: I’ll ask you to break it live.</p>",
+        "starts_at": "2026-11-26 15:00",
+        "ends_at": "2026-11-26 15:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Alex Lebedev",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "The Invisible Frontline",
+        "description": "<p>The information war for the hearts and minds of the free world.</p>\n<p>In this keynote, data scientist, public speaker, and online writer Marijn Markus takes you to the invisible frontline of modern warfare. From disinformation and propaganda to OSINT, artificial intelligence, social media algorithms, and drone warfare, he reveals how technology, information, and good old-fashioned data have become weapons in a global struggle for influence and power.</p>\n<p>While the kinetic war is largely confined to Ukraine, with Russian drones increasingly violating the airspace of countries like Poland and Romania, another war is being fought everywhere, every day.</p>\n<p>An information war. A war waged by adversaries of the free world, designed to misinform us, divide us, overwhelm us, and ultimately confuse us so thoroughly that we can no longer distinguish fact from fiction, truth from lies, or friend from foe.</p>\n<p>Because when we no longer understand what is happening, we no longer know what to do.</p>\n<p>And when we don't know what to do, we do nothing. That is precisely how they win.</p>\n<p>Through real-world examples from the digital battlefield and the war in Ukraine, Marijn exposes the technologies, tactics, and strategies behind this invisible conflict, and explores how the same tools used to manipulate us can also help us fight back.</p>\n<p>This is a keynote about the invisible war being fought for the hearts, minds, and souls of the free world.</p>\n<p>Because the most dangerous battlefield is the one you don't even realize you're standing on.</p>",
+        "starts_at": "2026-11-26 15:30",
+        "ends_at": "2026-11-26 15:55",
+        "tags": [],
+        "speakers": [
+            {
+                "name": "Marijn Markus",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Beating the Odds: AI, Latency and Big Data in the Bookmaker vs Syndicate War",
+        "description": "<p>Look at the Premier League table: Brighton is 2nd and Brentford is in the top half, while Manchester United, a club with several times their budget, sits 18th. Both clubs are owned by men who made their fortunes in professional betting syndicates: Tony Bloom (Starlizard) and Matthew Benham (Smartodds). They brought the same playbook from betting to football: better models, wider data, faster decisions.</p>\n<p>They built that playbook in a war most people never see. The usual story is “bookmakers fleece ordinary punters.” The real fight is between companies.</p>\n<p>Syndicates employ mathematicians, traders and engineers, often more of them than the bookmakers they bet against. They buy insider information before the market has it, bet through other people’s accounts, and use armies of bots to find bookmakers’ weak spots in pricing, live-betting delays, risk management and bonuses. Bookmakers fight back with real-time pricing models, tight latency control and AI that spots professional bettors.</p>\n<p>Yurii Kuka, Head of Business Operations at GR8_TECH, shows that front line from the bookmaker’s side, with real cases, a few goal clips and a lot of data.</p>",
+        "starts_at": "2026-11-26 15:30",
+        "ends_at": "2026-11-26 15:55",
+        "tags": [],
+        "speakers": [
+            {
+                "name": "Yurii Kuka",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "High volume AI vulnerability reporting",
+        "description": "<p>Back in the Artisenal era it took significant amounts of skill, time and\n<br>effort to find security problems in software. With the rise of powerful AI\n<br>tools used for this purpose, we have transitioned through a period with\n<br>aggressive halucinations into a time of high-volumne, high-quality security\n<br>reports flooding all Open Source projects. High quality chaos.</p>\n<p>Based on his experiences in the curl project, one of the world's most widely\n<br>used software components, Daniel describes the current reality, backed by\n<br>real-world numbers. The cold truth, viewed from one Open Source developer's\n<br>point of view.</p>\n<p>Biography:</p>\n<p>Daniel Stenberg is a Swedish Internet protocol expert and developer who has\n<br>participated in and worked with Open Source for thirty years. Perhaps most\n<br>known for being the founder and lead developer of the curl project, one of the\n<br>world's most widely used software components. He participates in protocol\n<br>development within the IETF and has authored books on curl, Open Source,\n<br>HTTP/2, HTTP/3 and is a frequent public speaker. Daniel is the president of\n<br>the European Open Source Academy and a three times medal receiver for his Open\n<br>Source work. Employed by wolfSSL.</p>",
+        "starts_at": "2026-11-26 16:00",
+        "ends_at": "2026-11-26 16:45",
+        "tags": [
+            "AI",
+            "dev"
+        ],
+        "speakers": [
+            {
+                "name": "Daniel Stenberg",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "PRO STAGE",
+        "title": "The Engineer of Tomorrow: What Matters Now?",
+        "description": null,
+        "starts_at": "2026-11-26 16:00",
+        "ends_at": "2026-11-26 16:45",
+        "tags": [
+            "Engineering",
+            "Future"
+        ],
+        "speakers": [
+            {
+                "name": "Rafał Nowosielski",
+                "is_moderator": false
+            },
+            {
+                "name": "Monika Nawrot",
+                "is_moderator": false
+            },
+            {
+                "name": "Luca Mezzalira",
+                "is_moderator": false
+            },
+            {
+                "name": "Oleks Maistrenko",
+                "is_moderator": true
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Building AI Products When Nobody Knows the Answer",
+        "description": "<p>Most product stories are told backward. Once a feature succeeds, it’s easy to believe the path was obvious all along.</p>\n<p>​In reality, product teams work with competing hypotheses, incomplete evidence, and no clear playbook. The challenge isn’t finding the \"\"right\"\" answer—it’s making good decisions before anyone knows what the right answer is.</p>\n<p>​In this talk, we’ll share real stories from building AI features at Superhuman: how we designed experiments, navigated disagreements, interpreted ambiguous data, and made decisions despite uncertainty.</p>\n<p>​This isn’t a framework or a polished success story. It’s an honest look at what product development actually feels like while it’s happening, and what we’ve learned about making progress before the story makes sense in hindsight.</p>",
+        "starts_at": "2026-11-26 16:00",
+        "ends_at": "2026-11-26 16:25",
+        "tags": [
+            "Product"
+        ],
+        "speakers": [
+            {
+                "name": "Sasha Marynych",
+                "is_moderator": false
+            },
+            {
+                "name": "Luisa Gonçalves",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "Podcast: Shit I know",
+        "description": null,
+        "starts_at": "2026-11-26 16:00",
+        "ends_at": "2026-11-26 17:00",
+        "tags": [
+            "Podcast"
+        ],
+        "speakers": [
+            {
+                "name": "Kris Kosyk",
+                "is_moderator": false
+            },
+            {
+                "name": "Dima Maleev",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Beyond Bigger Models: Hybrid AI for Physical Simulation and Physical AI",
+        "description": "<p>Physical AI cannot rely on one large, general-purpose model running entirely in the cloud. This talk explores how small language models, world models, accelerated simulation, and hardware-aware hybrid architectures can work together to build AI systems that interact with the physical world.</p>",
+        "starts_at": "2026-11-26 16:00",
+        "ends_at": "2026-11-26 16:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Bohdan Khomych",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Making AI Agents Work More Deterministically in Mature Native Mobile Projects",
+        "description": "<p>How can AI agents produce more predictable results in mature iOS and Android codebases? What contributes to AI Readiness as Code on mobile? This talk is a retrospective on shaping the right model of business context, defining architecture boundaries and the quality gates that prevent them from being crossed, and building feature-parity contracts and other input artefacts that help AI agents meet product requirements, without forcing software engineers into chaotic, fuzzy prompt engineering and massive rework.</p>",
+        "starts_at": "2026-11-26 16:30",
+        "ends_at": "2026-11-26 16:55",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Kostyantyn Mykhaylovskyy",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Building an In-House CMS on Laravel Nova: Why Argue When You Can Show It?",
+        "description": "<p>Arguing against a decision made above you rarely works, but showing a better solution that already runs does. I have faced this twice, once connecting a third-party system to a large existing content base, once inheriting an application that costs more to maintain than to rebuild. Both times a working alternative in Laravel Nova won the stakeholders over.</p>\n<p>This talk is about why that works: how Nova's conventions turn a data model into a usable admin panel in days, what to do when Nova reaches its limits, and why conventions, resource abstractions and AI assistance together make a working alternative faster to build than to debate. The examples are in Laravel and Nova; the approach applies to any stack with a convention-based framework and an admin layer.</p>",
+        "starts_at": "2026-11-26 16:30",
+        "ends_at": "2026-11-26 16:55",
+        "tags": [
+            "Engineering"
+        ],
+        "speakers": [
+            {
+                "name": "Oleksandr Piekhota",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "Opening",
+        "description": null,
+        "starts_at": "2026-11-27 09:00",
+        "ends_at": "2026-11-27 09:25",
+        "tags": [],
+        "speakers": []
+    },
+    {
+        "stage": "MAIN",
+        "title": "Driving Towards a Driverless Future The Waymo Journey",
+        "description": "<p>How does the road to a fully autonomous future actually look? Waymo is the pioneer of autonomous driving technology. Join the Waymo talk to explore the evolution of the Waymo Driver from its early experimental days to a fully commercial, scaling ride-hailing service. Discover how advanced AI, cutting-edge sensor fusion, and millions of real-world miles are shaping the world's most experienced driver.</p>",
+        "starts_at": "2026-11-27 09:30",
+        "ends_at": "2026-11-27 10:15",
+        "tags": [
+            "Future"
+        ],
+        "speakers": [
+            {
+                "name": "Monika Nawrot",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "The Modern Challenge of Integrating C++ into the Java Ecosystem: Problems, Consequences, and Solutions",
+        "description": "<p>How easy is it really to integrate OpenCV into a Java application? What about OpenVINO or any other C++ library? The answers may be less obvious than you expect.\n<br>In this talk, we will explore the challenges that arise when a Java application needs to use a high-performance or specialised library written in C++. At first glance, it may seem as simple as calling a function. In reality, the two languages follow fundamentally different models for memory, objects, error handling, and object lifecycles. We will examine where these difficulties come from, which approaches are genuinely safe, which only appear to be, and how to design a reliable bridge between the two worlds.</p>",
+        "starts_at": "2026-11-27 09:30",
+        "ends_at": "2026-11-27 09:55",
+        "tags": [
+            "Engineering",
+            "dev"
+        ],
+        "speakers": [
+            {
+                "name": "Denys Makogon",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "How a Failed Computer Game Became a Profitable Business",
+        "description": "<p>5 years ago I tried building a computer game with zero coding experience, barely any cash and no real plan. Spoiler alert: it didn’t work out, but that crazy experiment ended up turning into a completely different business - hosting team building events for remote teams. In this talk, I’ll share how I validated my ideas, realized when to pivot and built a profitable company out of thin air.</p>",
+        "starts_at": "2026-11-27 09:30",
+        "ends_at": "2026-11-27 09:55",
+        "tags": [
+            "Startups",
+            "Business"
+        ],
+        "speakers": [
+            {
+                "name": "Illia Onyschenko",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "PRO STAGE",
+        "title": "AMA with Daniel Stenberg",
+        "description": null,
+        "starts_at": "2026-11-27 10:00",
+        "ends_at": "2026-11-27 10:25",
+        "tags": [],
+        "speakers": [
+            {
+                "name": "Daniel Stenberg",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "No API Key Required: Running an AI Model Inside PostgreSQL",
+        "description": "<p>Every AI demo this week will call somebody's API. This one calls a\n<br>database function.</p>\n<p>In 50 minutes you will build a working semantic search engine on your\n<br>own laptop, on 12,656 real beers, where the embedding model runs inside\n<br>PostgreSQL. No API key, no GPU, no cloud, no Python service. You type\n<br>\"dark roasty coffee chocolate\" and get stouts back, in SQL!</p>\n<p>You will also see where it breaks: the approximate index that silently\n<br>returns zero rows and passes your tests, and the query that confidently\n<br>recommends kombucha with your kiełbasa. Then you will fix both.</p>\n<p>Bring a laptop with Docker installed and run one docker pull before you\n<br>arrive, or skip installing anything and use a free browser-based cloud\n<br>shell. Everything else is one command and a psql prompt. No prior\n<br>PostgreSQL or machine-learning experience needed.</p>",
+        "starts_at": "2026-11-27 10:00",
+        "ends_at": "2026-11-27 10:55",
+        "tags": [
+            "dev",
+            "AI",
+            "workshop"
+        ],
+        "speakers": [
+            {
+                "name": "Pavlo Golub",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "How to harness Small Language Models",
+        "description": null,
+        "starts_at": "2026-11-27 10:00",
+        "ends_at": "2026-11-27 10:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Maksym Kotliar",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "The Spec Drift Problem: What Breaks After You Adopt SDD",
+        "description": "<p>Spec-driven development promises that specs, not code, become the source of truth. A few months in, though, specs, code and tests quietly start to diverge. This talk maps the kinds of drift that appear once SDD meets a real project, explains why AI’s non-determinism makes them harder to spot, and shows practical ways to catch them early.</p>",
+        "starts_at": "2026-11-27 10:00",
+        "ends_at": "2026-11-27 10:25",
+        "tags": [
+            "Engineering"
+        ],
+        "speakers": [
+            {
+                "name": "Mykhailo Ivanov",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "How to survive being a developer in the AI Era and where is our fun",
+        "description": null,
+        "starts_at": "2026-11-27 10:30",
+        "ends_at": "2026-11-27 10:55",
+        "tags": [],
+        "speakers": [
+            {
+                "name": "Tomasz Kopacz",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Automating support with an AI agent in a corporate environment",
+        "description": "<p>This talk shares how my team at Autodesk used AI agents to automate one of the most repetitive parts of our workflow: fixing well-defined bugs in our design system. I'll walk through how the project evolved from an experiment into a practical engineering tool, the challenges we encountered, and the lessons we learned about applying AI to real-world software development.</p>",
+        "starts_at": "2026-11-27 10:30",
+        "ends_at": "2026-11-27 10:55",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Rafał Nowosielski",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "The Hidden Cost of Coordination: How I Rebuilt Product Teams to Move Faster",
+        "description": "<p>Companies invest heavily in AI, automation, and hiring to make product teams faster. But what if the real bottleneck isn't execution — it's coordination?</p>\n<p>As teams grow, communication overhead, dependencies, and endless alignment meetings can slow down delivery more than we realize.</p>\n<p>In this talk, I'll share how I redesigned two cross-functional product teams into one, reduced coordination complexity, and distributed product thinking across the team.</p>",
+        "starts_at": "2026-11-27 10:30",
+        "ends_at": "2026-11-27 10:55",
+        "tags": [
+            "Product"
+        ],
+        "speakers": [
+            {
+                "name": "Rostyslav Salata",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "Garbage Context, Garbage Code",
+        "description": "<p>Everyone is trying to get more out of their coding agents with better prompts, more guardrails, and cleverer loops, but the real bottleneck is upstream: what you feed the agent, and how you shape it for a memory that fills up and quietly forgets the middle. This talk is about the craft of turning what you know about your domain into context an agent can actually use, and about knowing when to hand it the reins and when to keep them. Get that right and the code follows; get it wrong, and no amount of clever prompting will save you.</p>",
+        "starts_at": "2026-11-27 11:00",
+        "ends_at": "2026-11-27 11:45",
+        "tags": [
+            "dev",
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Luca Mezzalira",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Suffering from success - 3x engineering speed and problems that come with that",
+        "description": "<p>At Saily, we've been actively working with coding agents for 10 months now through which we raised our engineering throughput 3 times. Hear how exactly we got to this point, what bottlenecks we've encountered and what comes next - at the point when increasing your speed further becomes damaging.</p>",
+        "starts_at": "2026-11-27 11:00",
+        "ends_at": "2026-11-27 11:25",
+        "tags": [],
+        "speakers": [
+            {
+                "name": "Ignas Paplauskas",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "PRO STAGE",
+        "title": "The Startup Journey",
+        "description": null,
+        "starts_at": "2026-11-27 11:00",
+        "ends_at": "2026-11-27 11:45",
+        "tags": [
+            "Product"
+        ],
+        "speakers": [
+            {
+                "name": "Borys Musielak",
+                "is_moderator": false
+            },
+            {
+                "name": "Mariia Krasnoschok",
+                "is_moderator": false
+            },
+            {
+                "name": "Elena Mazhuha",
+                "is_moderator": false
+            },
+            {
+                "name": "Alina Ashortiia",
+                "is_moderator": true
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Human to Robot protocol: From Speech to Motion",
+        "description": "<p>What if commanding a robot were as easy as talking to it? This talk presents the Agent 2 Robot Protocol (A2R) — a five-layer open-source architecture that turns natural speech in any language into safe robot actions, using local speech-to-text, an AI coding agent as the reasoning layer, and a deterministic CLI contract. Live demo included: a Unitree Go2 quadruped walks, turns, and dances on voice command — in simulation and on real hardware, switchable with a single flag.</p>",
+        "starts_at": "2026-11-27 11:00",
+        "ends_at": "2026-11-27 11:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Ivan Zhuravel",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "Evals as a Merge Gate: Make Your AI Harness Safe to Change in 45 Minutes",
+        "description": "<p>Your team's AI setup — skills, agents, plugins — is production infrastructure that everyone installs, and most teams change it with zero tests. One edited description silently stops a skill from triggering, and nobody notices for weeks.</p>\n<p>In 45 minutes we fix that on a real repo. You fork my prepared harness template, write your first basic evals for the skills and agents inside it, wire them into CI so the merge gate goes red when behavior breaks, then bump the version and ship it. Fast, practical, no theory: by the end you have a harness whose changes are tested, gated, and versioned — and a template you can point at your own repo the same week.</p>",
+        "starts_at": "2026-11-27 11:30",
+        "ends_at": "2026-11-27 12:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Ivan Lapa",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "The Way of the Samurai: 0 to Product Launch Solo with Claude Code",
+        "description": "<p>What it takes for one person to bring a product from zero to public launch with an AI agent as their only teammate. An honest case study of building SQL Guru — an AI-powered SQL trainer — solo with Claude Code: where AI is a real superpower, where it quietly fails you, and the road to actually shipping it.</p>",
+        "starts_at": "2026-11-27 11:30",
+        "ends_at": "2026-11-27 11:55",
+        "tags": [
+            "Product"
+        ],
+        "speakers": [
+            {
+                "name": "Hanna Pylieva",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "The New Bottleneck of the AI Era",
+        "description": "<p>Your AI agent can write code in minutes. Your pull request can still wait until tomorrow. What happens when review becomes the slowest part of development? At Dropbox, we built an AI reviewer to shorten that wait, then faced the harder work of making its feedback worth reading. I'll share the design choices, mistakes, and rollout lessons behind that effort, with practical ideas for cutting review delays without flooding developers with noise.</p>",
+        "starts_at": "2026-11-27 11:30",
+        "ends_at": "2026-11-27 11:55",
+        "tags": [
+            "AI",
+            "dev"
+        ],
+        "speakers": [
+            {
+                "name": "Dmytro Kovalenko",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "The CTO Playbook for 2027: What Still Works, What Must Change",
+        "description": null,
+        "starts_at": "2026-11-27 12:00",
+        "ends_at": "2026-11-27 12:45",
+        "tags": [
+            "panel"
+        ],
+        "speakers": [
+            {
+                "name": "Jarek Kusmierek",
+                "is_moderator": false
+            },
+            {
+                "name": "Dima Maleev",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Catching the Clones: Building Lightweight Models to Detect GenAI at Scale",
+        "description": "<p>As generative AI fuels a surge in hyper-realistic deepfakes, enterprise fraud, and coordinated cognitive warfare, traditional heavy detection models are proving too slow and costly to keep pace. This session explores how applied mathematics can be leveraged to build \"lightweight\" algorithms capable of identifying synthetic media in real time. Attendees will learn how these high-efficiency models are currently being deployed to protect live communication channels, banking KYC protocols, and national media ecosystems.</p>",
+        "starts_at": "2026-11-27 12:00",
+        "ends_at": "2026-11-27 12:45",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Florian Barbaro, PhD",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "AI Adoption at Scale: Rethinking Engineering Processes",
+        "description": "<p>With more than 300 developers in Engineering, adopting AI at Namecheap is not just about giving developers access to new tools. It requires us to rethink how our engineering organization works and how we structure our processes.</p>\n<p>In this talk, I’ll share Namecheap’s journey of adopting AI across Engineering: where we started, why we saw an opportunity to fundamentally change the way we work, and what we are doing to make AI adoption effective at scale.</p>\n<p>I’ll talk about how we encourage and drive AI adoption, introduce AI into the engineering workflow, and move beyond individual productivity towards changing the processes themselves, from how developers work and review code to how tasks are executed with autonomous AI agents.</p>\n<p>I’ll share how we measure whether these changes are helping us move faster and more effectively, and what we are learning along the way.</p>\n<p>This is a practical look at what it takes to move from simply using AI to building an engineering organization that works differently because of it.</p>",
+        "starts_at": "2026-11-27 12:00",
+        "ends_at": "2026-11-27 12:25",
+        "tags": [
+            "AI",
+            "Business"
+        ],
+        "speakers": [
+            {
+                "name": "Julia Korytko, PhD",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "TBA",
+        "description": null,
+        "starts_at": "2026-11-27 12:30",
+        "ends_at": "2026-11-27 12:55",
+        "tags": [
+            "Deftech"
+        ],
+        "speakers": [
+            {
+                "name": "Yaroslav",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "PRO STAGE",
+        "title": "The Decisions That Built (or Broke) Our Companies",
+        "description": null,
+        "starts_at": "2026-11-27 12:30",
+        "ends_at": "2026-11-27 13:15",
+        "tags": [
+            "Leadership",
+            "Business"
+        ],
+        "speakers": [
+            {
+                "name": "Sebastian Drzewiecki",
+                "is_moderator": false
+            },
+            {
+                "name": "Marcin Piesiak",
+                "is_moderator": false
+            },
+            {
+                "name": "Krzysztof Skowron",
+                "is_moderator": false
+            },
+            {
+                "name": "Alex Skakunov",
+                "is_moderator": true
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "TBA",
+        "description": null,
+        "starts_at": "2026-11-27 13:00",
+        "ends_at": "2026-11-27 13:25",
+        "tags": [],
+        "speakers": [
+            {
+                "name": "Secret Guest",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "Agents That Work While You Don’t: Building Ambient AI From Scratch",
+        "description": "<p>Most AI agents still wait for a prompt. The next generation runs in the background, notices what needs doing, and takes work off your plate before you ask. But always-on agents quickly get noisy, costly, and hard to trust.</p>\n<p>In this live session, Art Yavorskyi, Member of Technical Staff at Writer ($1.9B enterprise AI platform backed by Salesforce, Adobe, IBM, and Citi), builds an ambient agent from scratch with open-source tools. Art builds the agent infrastructure that runs in production for Salesforce, Uber, Vanguard and others.</p>\n<p>We’ll start with a naive agent, watch it break, and evolve it step by step into one that picks the right work, handles it well, and knows when to bring a human in. You’ll leave with a practical blueprint for delegating real work to agents.</p>",
+        "starts_at": "2026-11-27 13:00",
+        "ends_at": "2026-11-27 13:55",
+        "tags": [
+            "AI",
+            "workshop"
+        ],
+        "speakers": [
+            {
+                "name": "Artem Yavorskyi",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Java’s Structured Concurrency: why you and your agent should be interested",
+        "description": "<p>Concurrency is notoriously hard - for humans and agents alike. But it’s also ubiquitous.</p>\n<p>Structured concurrency is one technique that simplifies concurrent programs, known from Python &amp; Kotlin - and now coming in full swing to Java. Thanks to its lexical nature, it’s also easy to master for AI coding agents.</p>\n<p>Virtual Threads are delivered; structured scopes are still in JDK’s preview, but with a small OSS library (Jox), you can use them now.</p>\n<p>And more: an alternative to reactive streams, safe cancellation, Go-like lightweight channels. Learn the basics and ask your agents to start using structured concurrency on your next task.</p>",
+        "starts_at": "2026-11-27 13:00",
+        "ends_at": "2026-11-27 13:25",
+        "tags": [
+            "dev"
+        ],
+        "speakers": [
+            {
+                "name": "Adam Warski",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "AI-driven SDLC or Extreme Programming on Steroids",
+        "description": "<p>Every week brings a new framework, workflow, or buzzword promising to reinvent software development with AI agents. This talk argues the opposite: AI-driven SDLC is not a revolution. It is the moment when the practices Extreme Programming described 25 years ago finally become practical at full strength.</p>\n<p>XP’s ideas always sounded right but were hard to sustain: an always-engaged customer, collective code ownership, strict standards, constant review, and continuous integration. AI agents change that equation. What used to be aspirational discipline is now the very foundation that makes agentic development reliable. We will look at how familiar XP practices map onto modern AI workflows, and why some of them matter more now than ever. You’ll leave with a clear, battle-tested mental model for bringing AI into your SDLC, without chasing the next shiny methodology.</p>",
+        "starts_at": "2026-11-27 13:00",
+        "ends_at": "2026-11-27 13:45",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Mikalai Alimenkou",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "Infrastructure Engineering in the Age of Agents",
+        "description": "<p>AI agents are becoming both users of infrastructure and assistants for the engineers who operate it. A single prompt can trigger a burst of queries, retries, and resource requests. Meanwhile, the engineer responding to the resulting incident may delegate the investigation to another agent. What changes when agents sit on both sides of the on-call alert?</p>\n<p>Through personal experience, this talk dives into both sides, and discusses how, as engineers, we should change our habits, assumptions and re-learn how to design infrastructure for agents.</p>",
+        "starts_at": "2026-11-27 13:30",
+        "ends_at": "2026-11-27 13:55",
+        "tags": [
+            "AI",
+            "dev"
+        ],
+        "speakers": [
+            {
+                "name": "Vlad Sydorenko",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Flutter/Dart & AI: One Developer, One Codebase, Three Platforms",
+        "description": "<p>Real-world lessons from building AmperRank - a production Flutter app, Serverpod backend, and Jaspr SSR website for EV owners - almost entirely through AI-driven agentic workflows. Learn how one developer went full-stack by building agents that learn from their own mistakes, enforce project standards, and adapt to your codebase over time.</p>",
+        "starts_at": "2026-11-27 13:30",
+        "ends_at": "2026-11-27 13:55",
+        "tags": [
+            "dev"
+        ],
+        "speakers": [
+            {
+                "name": "Łukasz Wiśniewski",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "(r)Evolution of Software Development",
+        "description": "<p>Everyone is talking about AI. And nobody knows what happens next. We're not the first generation to stand in that spot — humanity has been here every time a new engine showed up, from horses to trucks, from workshops to factories. Hopefully not the last :D</p>\n<p>Every time, the technology was the easy part; rebuilding everything around it was the real work. In this talk we'll walk through those earlier revolutions, find the analogies that hold (and the ones that don't), ask a few existential questions for engineers — what is a senior developer now? what are we even reviewing? Do we still need to learn how to code? And we gonna try to do predictions of what software development gonna look like in a couple of years.</p>",
+        "starts_at": "2026-11-27 14:00",
+        "ends_at": "2026-11-27 14:45",
+        "tags": [
+            "AI",
+            "dev"
+        ],
+        "speakers": [
+            {
+                "name": "Dima Maleev",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "VictoriaLogs architecture: how can it handle a petabyte of logs on a single node",
+        "description": "<p>The talk explains why traditional databases such as MySQL and PostgreSQL aren't good fit for big volumes of logs. The talk sheds light on the internal architecture of the database optimized for cost-efficient storing and processing petabytes of the real production logs from applications running in Kubernetes.</p>\n<p>There is no magic — just simple practical architecture decisions, which allow storing a petabyte of logs in a single-node setup and scaling to hundreds of petabytes of logs in cluster setup. These architecture decisions are implemented in VictoriaLogs - a production-ready open source database for logs, which allows saving millions of euros on infrastructure and operation at a large-scale logging.</p>",
+        "starts_at": "2026-11-27 14:00",
+        "ends_at": "2026-11-27 14:25",
+        "tags": [
+            "Engineering"
+        ],
+        "speakers": [
+            {
+                "name": "Aliaksandr Valialkin",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "98% More PRs, 2% Better Products: Engineering's Bottleneck Was Never the Code",
+        "description": "<p>DORA's 2025 report is awkward for engineering: teams completed 21% more tasks and merged 98% more PRs, while product performance rose about 2%. The missing piece is not typing speed. It is the delivery system that still throws work over the wall (idea, requirements, design, code, live) and turns every handoff into a queue. Roles stay clear; ownership of the outcome does not.</p>\n<p>This talk is about redesigning that system so engineers can own a problem through to production, with AI in the background rather than on the poster. At edrone, the same six people, over the same three months, went from one team shipping two features at 1x product impact to three builder pairs shipping ten features at 3x impact. You will leave with the failure modes that showed up when that model scaled (platform, discovery, and ownership after launch) and a two-person experiment a tech lead can start the following week.</p>",
+        "starts_at": "2026-11-27 14:00",
+        "ends_at": "2026-11-27 14:25",
+        "tags": [
+            "Engineering"
+        ],
+        "speakers": [
+            {
+                "name": "Piotr Kacała",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "PRO STAGE",
+        "title": "Defence Tech: From Breakthrough Ideas to Real-World Impact",
+        "description": null,
+        "starts_at": "2026-11-27 14:00",
+        "ends_at": "2026-11-27 14:45",
+        "tags": [
+            "Deftech"
+        ],
+        "speakers": [
+            {
+                "name": "Maksym Cherkis",
+                "is_moderator": false
+            },
+            {
+                "name": "Nataliia Ohiienko",
+                "is_moderator": false
+            },
+            {
+                "name": "Yevhen Kovalevskiy",
+                "is_moderator": true
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Why PostgreSQL is the best database: Extend your database",
+        "description": "<p>PostgreSQL isn't just a feature-rich open source database—it's one of the most extensible platforms in the world. This talk explores just how far that extensibility can go, diving into PostgreSQL's unique extension system and what it makes possible.</p>",
+        "starts_at": "2026-11-27 14:00",
+        "ends_at": "2026-11-27 14:45",
+        "tags": [
+            "dev"
+        ],
+        "speakers": [
+            {
+                "name": "Devrim Gunduz",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "From Coal to Exabytes: How a German Mining Region Is Being Rebuilt Around the Technology and Science of the 2030s",
+        "description": "<p>Germany is shutting down its lignite mines, and over 9,000 jobs in Lusatia are going with them. Rather than subsidise the old industry, the government put €1.1 billion into building a new astrophysics centre there, tasked with processing the data from the Square Kilometre Array and leading the German contribution to the Einstein Telescope, two billion-euro projects that will define European science in the 2030s. This talk is about what it actually takes to convert a coal region into a technology hub, told through the technology, data, and science.</p>",
+        "starts_at": "2026-11-27 14:30",
+        "ends_at": "2026-11-27 14:55",
+        "tags": [
+            "Future"
+        ],
+        "speakers": [
+            {
+                "name": "Pavlo Plotko",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "The network that survives the blackout: assemble your own LoRa mesh node",
+        "description": "<p>What if you could text across the whole city with no SIM card, no carrier, and no bill?\n<br>In this hands-on workshop, you'll assemble and flash your own LoRa mesh node and take it home for free.\n<br>Watch a real off-grid network form live in the room, then learn how to put your node on Poland's public mesh map.\n<br>No radio license or prior hardware experience needed.\n<br>Recommended: bring a laptop with a USB-C port.</p>",
+        "starts_at": "2026-11-27 14:30",
+        "ends_at": "2026-11-27 15:25",
+        "tags": [
+            "SciTech",
+            "workshop"
+        ],
+        "speakers": [
+            {
+                "name": "Yevhen Kondrashyn",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "Nothing to click: Software after the interface",
+        "description": "<p>We used to tell computers every step. Then only the result. Now a sentence is enough, and the next systems will not wait for the sentence.</p>\n<p>This talk is about what software becomes after the interface: systems you talk to, systems that remember, and systems that act without being asked. We will look at what already works today, what is coming next, and what breaks along the way, with live demos throughout.</p>\n<p>It ends with a question for engineers: when there is nothing to click, who decides what happens?</p>\n<p>Art Yavorsky is a lead engineer at Writer, where he has spent two years building AI agents.</p>",
+        "starts_at": "2026-11-27 15:00",
+        "ends_at": "2026-11-27 15:45",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Artem Yavorskyi",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Fail Fast, Comply Early: Why CE Compliance and Prototyping Must Go Hand in Hand",
+        "description": "<p>Your product works. Your prototype is ready. But without addressing CE compliance early, your product might never reach the market. Late compliance surprises can mean costly redesigns, missed launch dates, or even the end of your project.</p>\n<p>Clemens Mayer explores how integrating CE compliance into prototyping from day one helps teams uncover critical risks early, avoid expensive mistakes, and ensure their innovations are not only functional but ready for market entry.</p>",
+        "starts_at": "2026-11-27 15:00",
+        "ends_at": "2026-11-27 15:25",
+        "tags": [],
+        "speakers": [
+            {
+                "name": "Clemens Mayer",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "The Developer Loop, Rewired: Building Systems That Build Systems",
+        "description": "<p>In modern software development, the code we write no longer builds only the app’s features. More and more of it builds the machinery that writes the code for us.</p>\n<p>We create agents that write, test and evaluate code, traces that show why an agent did what it did, and loops that feed all of it back into the next version of the app. \n<br>Every day comes with new models, new plugins, and another repo hitting 100k stars on GitHub.</p>\n<p>And our daily loop has changed too. We write code that writes code even while we sleep, and we always need more: to supervise the supervisor, to challenge the orchestrator, to bring the output up to the quality of a traditional senior developer. All of it with non-deterministic tools.</p>\n<p>Always rushing toward more automation, we build new automations, and change the machinery while we are still building it. Look closer, and it can feel like we spend more energy on the machinery than on the apps we actually ship.</p>\n<p>This session is about the developer’s new life and work style, with practical examples and lessons from building that machinery every day, and how to find the right balance between logic in rule-based code and md files.</p>\n<p>You’ll see how to build an efficient setup, wire an evaluation loop into an AI feature, let one model grade another, catch regressions, and trace a multi-step agent run end to end.</p>\n<p>Expect code, diagrams, and a few things breaking on screen.</p>",
+        "starts_at": "2026-11-27 15:00",
+        "ends_at": "2026-11-27 15:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Lucian Gruia",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "PRO STAGE",
+        "title": "The Changing Talent Market",
+        "description": null,
+        "starts_at": "2026-11-27 15:00",
+        "ends_at": "2026-11-27 15:45",
+        "tags": [
+            "Business"
+        ],
+        "speakers": [
+            {
+                "name": "Barbara Wilk",
+                "is_moderator": false
+            },
+            {
+                "name": "Alicja Malok",
+                "is_moderator": false
+            },
+            {
+                "name": "Maja Gojtowska",
+                "is_moderator": true
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "From IT to deftech: what nobody tells you before you switch",
+        "description": "<p>Most advice about moving from IT into defence comes from people selling you either a job or an idea. This talk comes from the hiring side.\n<br>Many strong IT specialists apply to defence companies and don’t get an offer. Usually it is not about their skills: they expect defence to work like their previous company, and it doesn’t.\n<br>The talk covers what hiring managers actually look at in a CV from someone in IT, which skills carry over and which matter less, and what job posts don’t mention.\n<br>Come before you decide, so you know what you are signing up for.</p>",
+        "starts_at": "2026-11-27 15:30",
+        "ends_at": "2026-11-27 15:55",
+        "tags": [
+            "Deftech"
+        ],
+        "speakers": [
+            {
+                "name": "Kateryna Hirna",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Designing mission-critical multi-surface experiences",
+        "description": "<p>Modern enterprise platforms require users to move seamlessly across distinct operational contexts - from deep-focus workflows on the desktop to high-stakes incident response on mobile devices. How should product and engineering teams architect these ecosystems so mobile clients are not merely watered-down ports of web applications, but resilient, context-aware tools built for critical moments?\n<br>In this 25-minute talk, Kamil Brzezinski - Group Product Manager at Asana and former Product Manager for Google Cloud’s mobile experiences - shares a practical framework for building multi-surface software. Drawing on lessons from supporting cloud operators triaging infrastructure away from their desks, combined with checklist discipline and risk-mitigation models from general aviation, Kamil explores how to bridge distributed systems architecture, Critical User Journeys (CUJs), and high-stress UX design.</p>",
+        "starts_at": "2026-11-27 15:30",
+        "ends_at": "2026-11-27 15:55",
+        "tags": [
+            "Product"
+        ],
+        "speakers": [
+            {
+                "name": "Kamil Brzezinski",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Reversibility-as-a-Service: Runtime Control as a Platform Capability",
+        "description": "<p>Infrastructure engineers know exactly how to build artifacts and deploy them. However, the decisions that must change between deployments often end up in a ConfigMap and are enforced by a restart. This session proposes a more structured approach to runtime control: put each decision at the layer where it binds, and know what each layer costs to undo. Demos on Kubernetes show Argo CD and Unleash (an open-source feature management platform) working side by side, plus a real distributed system that waits for a safe moment to apply a flag, using OpenTelemetry Baggage and OpenFeature semantic conventions to keep consistency across services. Attendees leave with structured recommendations and best practices they can apply to their platform.</p>",
+        "starts_at": "2026-11-27 15:30",
+        "ends_at": "2026-11-27 15:55",
+        "tags": [
+            "highload"
+        ],
+        "speakers": [
+            {
+                "name": "Wojtek Gawroński",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "Idioms for building collaborative and scalable agentic systems with Elixir",
+        "description": "<p>This talk will introduce developers to Elixir and show how it provides abstractions that perfectly suit the modern challenges in building collaborative and scalable agentic systems. Throughout the presentation, you will learn a new set of idioms which will change how you think about software. There will be live demos!</p>",
+        "starts_at": "2026-11-27 16:00",
+        "ends_at": "2026-11-27 16:45",
+        "tags": [
+            "dev"
+        ],
+        "speakers": [
+            {
+                "name": "José Valim",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "PRO STAGE",
+        "title": "Cybersecurity in the Age of AI",
+        "description": null,
+        "starts_at": "2026-11-27 16:00",
+        "ends_at": "2026-11-27 16:45",
+        "tags": [
+            "Security",
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Anastasiia Voitova",
+                "is_moderator": false
+            },
+            {
+                "name": "Przemysław Frasunek",
+                "is_moderator": false
+            },
+            {
+                "name": "Maciej Broniarz",
+                "is_moderator": false
+            },
+            {
+                "name": "Pavlo Golub",
+                "is_moderator": true
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "The Data Analyst in the AI Era: Evolution, Not Extinction",
+        "description": "<p>Drawing on nearly a decade of experience watching analytics evolve from spreadsheets to AI-powered automation, this session explores how AI is transforming every stage of the data workflow. It will show how AI is reshaping—rather than replacing—the role of the Data Analyst, and highlight the key strategies that will differentiate analysts who thrive in this new environment.</p>",
+        "starts_at": "2026-11-27 16:00",
+        "ends_at": "2026-11-27 16:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Robert Przybyłowski",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Selling Your Work: How Engineers Can Accelerate Career Growth in Large Organizations",
+        "description": "<p>Engineering competence is only half the job in large organizations. The other half is communicating and selling the business impact of what you build. Based on real experience, you’ll hear insights from engineers and leaders across the ladder on how to break out of the “invisible engineer” trap, communicate effectively across teams, and accelerate your career growth — without being the loudest person in the room.</p>",
+        "starts_at": "2026-11-27 16:00",
+        "ends_at": "2026-11-27 16:25",
+        "tags": [
+            "Growth"
+        ],
+        "speakers": [
+            {
+                "name": "Maksym Ulanov",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Semantics-driven document abstraction",
+        "description": null,
+        "starts_at": "2026-11-27 16:30",
+        "ends_at": "2026-11-27 16:55",
+        "tags": [],
+        "speakers": [
+            {
+                "name": "Rafał Małanij",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "STUDIO",
+        "title": "Podcast TBD",
+        "description": null,
+        "starts_at": "2026-11-27 16:30",
+        "ends_at": "2026-11-27 17:30",
+        "tags": [],
+        "speakers": [
+            {
+                "name": "Dmytro Kovalenko",
+                "is_moderator": false
+            },
+            {
+                "name": "Ivan Lapa",
+                "is_moderator": true
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "Tabular AI: In-Context Learning for Structured Business Data",
+        "description": "<p>Enterprise applications produce vast amounts of structured tabular data, but extracting actionable predictive insights is often fragmented across separate models and workflows. At SAP, we addressed the Tabular AI requirements with in-house trained SAP-RPT, a unified, table-native Transformer model available as open source on Hugging Face. It leverages in-context learning to deliver dynamic, real-time predictions for individual records without requiring retraining.</p>",
+        "starts_at": "2026-11-27 16:30",
+        "ends_at": "2026-11-27 16:55",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Witalij Rudnicki",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "GROWTH",
+        "title": "AI for Engineering Managers: Turning Repositories and Backlogs into Better Decisions",
+        "description": "<p>Over the past year, AI has evolved from an experiment into a practical part of my work as an engineering manager. This talk shows how I use AI across repositories and backlogs to surface relevant signals, reduce manual analysis, and make better decisions, including the lessons and limitations I discovered along the way.</p>",
+        "starts_at": "2026-11-27 17:00",
+        "ends_at": "2026-11-27 17:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Piotr Ceranek",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "ENGINEERING",
+        "title": "Don’t Break the LLM: Recipes for Seamless Prompt Migration and Optimization",
+        "description": "<p>Text instructions create a false sense of control over LLMs, a fragility exposed during model migrations. Drawing on production systems at Zendesk, this session argues that prompts are opaque, nondeterministic ML models that require rigorous evaluation. You will learn about automated prompt optimization, benchmarks validated against production, shadow testing before launch, and reverse shadow testing afterward, while keeping precision high, costs low, and deployments safe.</p>",
+        "starts_at": "2026-11-27 17:00",
+        "ends_at": "2026-11-27 17:25",
+        "tags": [
+            "AI"
+        ],
+        "speakers": [
+            {
+                "name": "Artem Chernodub",
+                "is_moderator": false
+            }
+        ]
+    },
+    {
+        "stage": "MAIN",
+        "title": "DakhaBrakha Concert",
+        "description": null,
+        "starts_at": "2026-11-27 18:00",
+        "ends_at": "2026-11-27 19:00",
+        "tags": [],
+        "speakers": []
+    }
+]
