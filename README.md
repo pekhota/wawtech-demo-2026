@@ -32,7 +32,18 @@ Open <http://localhost:8001/nova> and sign in with the seeded account `test@exam
 | Setting | What it does |
 |---|---|
 | `NOVA_LICENSE_KEY` | Removes Nova's "Unregistered" badge. |
-| `NOVA_DEMO_EMAIL`, `NOVA_DEMO_PASSWORD` | Pre-fills the login form, so a live demo needs no typing. Only added when `APP_ENV=local`; never put real credentials here, because they end up in the page source. |
+| `NOVA_ADMIN_EMAILS` | Comma-separated emails allowed into Nova outside your laptop. Locally everyone is let in. |
+| `NOVA_DEMO_EMAIL`, `NOVA_DEMO_PASSWORD` | Pre-fills the login form, so a demo needs no typing. Locally this works with any account; elsewhere only with a read-only one, because the password is visible in the page source. |
+
+### Public demo account
+
+To let anyone browse the live admin without being able to change anything:
+
+1. Set `NOVA_DEMO_EMAIL` and `NOVA_DEMO_PASSWORD` on the server to a new address and a password you use nowhere else.
+2. Run `php artisan demo:account`. It creates (or updates) that account as **read-only** and refuses to touch an existing regular account.
+3. The login page is now pre-filled with it.
+
+Read-only accounts can see every content page and dashboard. They can't create, edit, delete, reorder, attach, run actions, impersonate, see the user list or change their password. That is enforced by `App\Policies\ContentPolicy` and `UserPolicy`, not just hidden in the interface. Admins can switch any user to read-only in Users → edit. Locally, `visitor@example.com` / `password` is a read-only account to try it with.
 
 ## What's inside
 

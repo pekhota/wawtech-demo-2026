@@ -43,6 +43,12 @@ class DatabaseSeeder extends Seeder
             'email' => 'editor@example.com',
         ]);
 
+        // What the public demo login looks like: can browse everything, change nothing.
+        User::factory()->readOnly()->create([
+            'name' => 'Demo Visitor',
+            'email' => 'visitor@example.com',
+        ]);
+
         $user->notify(NovaNotification::make()
             ->message(sprintf('Imported %d speakers and %d sessions from wawtech.io.', Speaker::count(), AgendaItem::count()))
             ->action('Open agenda', URL::make('/resources/agenda-items'))

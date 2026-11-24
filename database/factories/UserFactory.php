@@ -42,4 +42,14 @@ class UserFactory extends Factory
             'email_verified_at' => null,
         ]);
     }
+
+    /**
+     * Indicate that the user can look around Nova but not change anything.
+     */
+    public function readOnly(): static
+    {
+        return $this->state(fn (array $attributes) => [
+            'is_read_only' => true,
+        ]);
+    }
 }
