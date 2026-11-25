@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\RejectChangesFromReadOnlyAccounts;
 use Illuminate\Http\Middleware\CheckResponseForModifications;
 use Laravel\Nova\Actions\ActionResource;
 use Laravel\Nova\Http\Middleware\Authenticate;
@@ -101,6 +102,7 @@ return [
         'web',
         HandleInertiaRequests::class,
         'nova:serving',
+        RejectChangesFromReadOnlyAccounts::class,
     ],
 
     'api_middleware' => [
@@ -109,6 +111,7 @@ return [
         // \Laravel\Nova\Http\Middleware\AuthenticateSession::class,
         // \Laravel\Nova\Http\Middleware\EnsureEmailIsVerified::class,
         Authorize::class,
+        RejectChangesFromReadOnlyAccounts::class,
     ],
 
     'asset_middleware' => [

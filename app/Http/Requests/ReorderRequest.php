@@ -25,12 +25,12 @@ class ReorderRequest extends FormRequest
     ];
 
     /**
-     * The route's nova:api middleware already limits this to Nova users; the
-     * model's policy then keeps read-only accounts (the public demo) out.
+     * The route's nova:api middleware already limits this to Nova users and
+     * turns read-only accounts (the public demo) away.
      */
     public function authorize(): bool
     {
-        return $this->user()->can('update', $this->model());
+        return true;
     }
 
     /**

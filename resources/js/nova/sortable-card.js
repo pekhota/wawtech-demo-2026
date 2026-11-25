@@ -147,7 +147,11 @@ Nova.booting((app) => {
                 } catch (error) {
                     this.items = [...this.lastSaved]
                     this.saveAgain = false
-                    Nova.error('The new order could not be saved. Reload the page and try again.')
+
+                    // Nova already shows the server's own message for a 5xx (such as the read-only demo account's).
+                    if (!(error.response?.status >= 500)) {
+                        Nova.error('The new order could not be saved. Reload the page and try again.')
+                    }
                 } finally {
                     this.saving = false
 

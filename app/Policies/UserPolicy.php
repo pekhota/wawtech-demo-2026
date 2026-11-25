@@ -6,11 +6,12 @@ use App\Models\User;
 
 /**
  * Read-only accounts (the public demo login) can't see the user list at all,
- * so the demo doesn't expose the admins' email addresses.
+ * so the demo doesn't expose the admins' email addresses. Everything else stays
+ * visible to them; RejectChangesFromReadOnlyAccounts turns their changes away.
  *
- * Unlike ContentPolicy, every ability is spelled out: Nova checks the viewNova
- * gate with the user as an argument, and a catch-all __call here would answer
- * that check instead of the gate.
+ * Every ability is spelled out: Nova checks the viewNova gate with the user as
+ * an argument, and a catch-all __call here would answer that check instead of
+ * the gate.
  */
 class UserPolicy
 {

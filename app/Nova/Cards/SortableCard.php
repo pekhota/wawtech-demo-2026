@@ -3,7 +3,6 @@
 namespace App\Nova\Cards;
 
 use App\Http\Requests\ReorderRequest;
-use Illuminate\Http\Request;
 use Laravel\Nova\Card;
 
 /**
@@ -35,9 +34,6 @@ class SortableCard extends Card
     public function __construct(string $list, string $title, string $hint, iterable $items, string $layout = 'list')
     {
         parent::__construct();
-
-        // Only shown to people who may reorder; read-only accounts get no card.
-        $this->canSee(fn (Request $request) => (bool) $request->user()?->can('update', ReorderRequest::LISTS[$list]));
 
         $this->withMeta([
             'title' => $title,

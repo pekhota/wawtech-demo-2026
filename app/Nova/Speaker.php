@@ -175,11 +175,6 @@ class Speaker extends Resource
      */
     public function actions(NovaRequest $request): array
     {
-        // ContentPolicy already blocks them; don't show read-only accounts disabled buttons.
-        if ($request->user()?->is_read_only) {
-            return [];
-        }
-
         return [
             Action::using('Feature on homepage', fn (ActionFields $fields, Collection $speakers) => $speakers->each->update(['is_featured' => true]))
                 ->showInline(),
