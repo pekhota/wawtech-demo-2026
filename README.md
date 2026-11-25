@@ -47,6 +47,8 @@ Read-only accounts see the admin as an editor does: every content page, dashboar
 
 The shared password can't be changed for the same reason. One page stays closed to read-only accounts: the user list (`App\Policies\UserPolicy`), so admin emails aren't shown, which also means they can't impersonate anyone. Admins can switch any user to read-only in Users → edit. Locally, `visitor@example.com` / `password` is a read-only account to try it with.
 
+There is no "forgot your password?" link: resetting by email is switched off, so nobody can request a reset for the shared demo account. Admins set passwords in Users → edit.
+
 ## What's inside
 
 Each page shows off a different group of Nova features.

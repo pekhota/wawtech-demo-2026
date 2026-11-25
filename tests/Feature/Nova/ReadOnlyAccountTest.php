@@ -205,6 +205,18 @@ it('hides the user list from a read-only account', function () {
     $this->actingAs($this->visitor)->getJson('/nova-api/users')->assertForbidden();
 });
 
+it('hides the details of every user from a read-only account', function (string $page) {
+    $admin = User::factory()->create();
+
+    $response = $this->actingAs($this->visitor)->getJson("/nova-api/users/{$admin->id}{$page}");
+
+    $response->assertForbidden();
+})->with([
+    'the detail page' => [''],
+    'the preview' => ['/preview'],
+    'the peek popover' => ['/peek'],
+]);
+
 it('keeps the shared password of a read-only account unchanged', function () {
     $visitor = User::factory()->readOnly()->create(['password' => 'demo-password']);
 

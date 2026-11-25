@@ -92,9 +92,10 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
      */
     protected function routes(): void
     {
+        // No password reset by email: anyone could request a link for the shared demo account.
+        // Admins set passwords in Users → edit; `php artisan demo:account` sets the demo one.
         Nova::routes()
             ->withAuthenticationRoutes(default: true)
-            ->withPasswordResetRoutes()
             ->withoutEmailVerificationRoutes()
             ->register();
     }

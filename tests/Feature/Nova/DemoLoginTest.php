@@ -46,5 +46,8 @@ it('adds nothing when no demo email is set', function () {
 it('only fills the login page', function () {
     app()->detectEnvironment(fn () => 'local');
 
-    $this->get('/nova/password/reset')->assertOk()->assertDontSee('demo-password');
+    $this->actingAs(User::factory()->create())
+        ->get('/nova/dashboards/main')
+        ->assertOk()
+        ->assertDontSee('demo-password');
 });
