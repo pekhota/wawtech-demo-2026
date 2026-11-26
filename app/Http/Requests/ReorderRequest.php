@@ -25,7 +25,8 @@ class ReorderRequest extends FormRequest
     ];
 
     /**
-     * Access is already limited to Nova users by the route's nova:api middleware.
+     * The route's nova:api middleware already limits this to Nova users and
+     * turns read-only accounts (the public demo) away.
      */
     public function authorize(): bool
     {

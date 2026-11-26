@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\RejectChangesFromReadOnlyAccounts;
 use Illuminate\Http\Middleware\CheckResponseForModifications;
 use Laravel\Nova\Actions\ActionResource;
 use Laravel\Nova\Http\Middleware\Authenticate;
@@ -101,6 +102,7 @@ return [
         'web',
         HandleInertiaRequests::class,
         'nova:serving',
+        RejectChangesFromReadOnlyAccounts::class,
     ],
 
     'api_middleware' => [
@@ -109,6 +111,7 @@ return [
         // \Laravel\Nova\Http\Middleware\AuthenticateSession::class,
         // \Laravel\Nova\Http\Middleware\EnsureEmailIsVerified::class,
         Authorize::class,
+        RejectChangesFromReadOnlyAccounts::class,
     ],
 
     'asset_middleware' => [
@@ -227,12 +230,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Demo Login (local only)
+    | Demo Login
     |--------------------------------------------------------------------------
     |
-    | When the app runs locally and an email is set, the login form is filled
-    | in with this account so live demos don't need typing. It is never added
-    | outside the local environment (see resources/views/vendor/nova/partials/meta.blade.php).
+    | When an email is set, the login form is filled in with this account so
+    | demos need no typing. Locally any account works; elsewhere only a
+    | read-only one, since the password is visible in the page source
+    | (see App\Nova\DemoLogin). Create it with `php artisan demo:account`.
     |
     */
 

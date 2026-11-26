@@ -7,6 +7,7 @@ use Illuminate\Http\Resources\MergeValue;
 use Laravel\Nova\Actions\Action;
 use Laravel\Nova\Auth\PasswordValidationRules;
 use Laravel\Nova\Card;
+use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Fields\Gravatar;
 use Laravel\Nova\Fields\ID;
@@ -71,6 +72,10 @@ class User extends Resource
                 ->onlyOnForms()
                 ->creationRules($this->passwordRules())
                 ->updateRules($this->optionalPasswordRules()),
+
+            Boolean::make('Read-only', 'is_read_only')
+                ->sortable()
+                ->help('Can look around Nova but not change anything. Use this for the public demo login.'),
         ];
     }
 

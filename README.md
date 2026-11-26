@@ -32,7 +32,24 @@ Open <http://localhost:8001/nova> and sign in with the seeded account `test@exam
 | Setting | What it does |
 |---|---|
 | `NOVA_LICENSE_KEY` | Removes Nova's "Unregistered" badge. |
-| `NOVA_DEMO_EMAIL`, `NOVA_DEMO_PASSWORD` | Pre-fills the login form, so a live demo needs no typing. Only added when `APP_ENV=local`; never put real credentials here, because they end up in the page source. |
+| `NOVA_ADMIN_EMAILS` | Comma-separated emails allowed into Nova outside your laptop. Locally everyone is let in. |
+| `NOVA_DEMO_EMAIL`, `NOVA_DEMO_PASSWORD` | Pre-fills the login form, so a demo needs no typing. Locally this works with any account; elsewhere only with a read-only one, because the password is visible in the page source. |
+
+### Public demo account
+
+To let anyone browse the live admin without being able to change anything:
+
+1. Set `NOVA_DEMO_EMAIL` and `NOVA_DEMO_PASSWORD` on the server to a new address and a password you use nowhere else.
+2. Run `php artisan demo:account`. It creates (or updates) that account as **read-only** and refuses to touch an existing regular account.
+3. The login page is now pre-filled with it.
+
+The command also takes the account inline: `php artisan demo:account --email=demo@example.com --password=some-password`. The login page is still pre-filled from the two settings, so keep them the same; the command warns when they differ.
+
+Read-only accounts see the admin as an editor does: every content page, dashboard, form, button and action. Nothing they submit is saved. Creating, editing, deleting, reordering, attaching or running an action shows "This is a read-only demo account, so your changes were not saved." That is enforced on the server by `App\Http\Middleware\RejectChangesFromReadOnlyAccounts`, which turns away every request from a read-only account that would change data.
+
+The shared password can't be changed for the same reason. One page stays closed to read-only accounts: the user list (`App\Policies\UserPolicy`), so admin emails aren't shown, which also means they can't impersonate anyone. Admins can switch any user to read-only in Users → edit. Locally, `visitor@example.com` / `password` is a read-only account to try it with.
+
+There is no "forgot your password?" link: resetting by email is switched off, so nobody can request a reset for the shared demo account. Admins set passwords in Users → edit.
 
 ## What's inside
 

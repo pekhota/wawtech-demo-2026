@@ -92,9 +92,10 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
      */
     protected function routes(): void
     {
+        // No password reset by email: anyone could request a link for the shared demo account.
+        // Admins set passwords in Users → edit; `php artisan demo:account` sets the demo one.
         Nova::routes()
             ->withAuthenticationRoutes(default: true)
-            ->withPasswordResetRoutes()
             ->withoutEmailVerificationRoutes()
             ->register();
     }
@@ -108,8 +109,11 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     {
         Gate::define('viewNova', function (User $user) {
             // Nova already admits everyone locally; mirroring that here lets impersonation work in the demo.
-            // Elsewhere only the emails in NOVA_ADMIN_EMAILS get in.
-            return app()->isLocal() || in_array(strtolower($user->email), config('nova.admin_emails'), true);
+            // Elsewhere only the emails in NOVA_ADMIN_EMAILS get in, plus read-only accounts,
+            // which RejectChangesFromReadOnlyAccounts stops from changing anything.
+            return app()->isLocal()
+                || $user->is_read_only
+                || in_array(strtolower($user->email), config('nova.admin_emails'), true);
         });
     }
 

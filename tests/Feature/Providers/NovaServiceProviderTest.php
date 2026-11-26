@@ -21,3 +21,13 @@ it('admits users listed in NOVA_ADMIN_EMAILS outside local, ignoring case', func
 
     $response->assertOk();
 });
+
+it('offers no password reset by email', function (string $method, string $path) {
+    $response = $this->json($method, $path, ['email' => 'admin@wawtech.test']);
+
+    $response->assertNotFound();
+})->with([
+    'the forgot password page' => ['GET', '/nova/password/reset'],
+    'requesting a reset link' => ['POST', '/nova/password/email'],
+    'setting a new password' => ['POST', '/nova/password/reset'],
+]);
