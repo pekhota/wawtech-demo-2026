@@ -43,6 +43,8 @@ To let anyone browse the live admin without being able to change anything:
 2. Run `php artisan demo:account`. It creates (or updates) that account as **read-only** and refuses to touch an existing regular account.
 3. The login page is now pre-filled with it.
 
+The command also takes the account inline: `php artisan demo:account --email=demo@example.com --password=some-password`. The login page is still pre-filled from the two settings, so keep them the same; the command warns when they differ.
+
 Read-only accounts see the admin as an editor does: every content page, dashboard, form, button and action. Nothing they submit is saved. Creating, editing, deleting, reordering, attaching or running an action shows "This is a read-only demo account, so your changes were not saved." That is enforced on the server by `App\Http\Middleware\RejectChangesFromReadOnlyAccounts`, which turns away every request from a read-only account that would change data.
 
 The shared password can't be changed for the same reason. One page stays closed to read-only accounts: the user list (`App\Policies\UserPolicy`), so admin emails aren't shown, which also means they can't impersonate anyone. Admins can switch any user to read-only in Users → edit. Locally, `visitor@example.com` / `password` is a read-only account to try it with.
